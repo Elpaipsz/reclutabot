@@ -1,0 +1,54 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Moreno Torres",
+    "correo": "paula.moreno.torres154@correo.com",
+    "telefono": "3235427230",
+    "documento": "1043543938",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2022,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2013-07",
+      "fecha_fin": "2014-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Nubank",
+      "fecha_inicio": "2015-03",
+      "fecha_fin": "2017-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Pragma",
+      "fecha_inicio": "2018-05",
+      "fecha_fin": "2020-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Scrum",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

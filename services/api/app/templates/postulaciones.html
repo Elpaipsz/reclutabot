@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% block title %}Postulaciones{% endblock %}
+{% block body %}
+<h1>Postulaciones</h1>
+<form method="get" class="card grid g4" style="align-items:end">
+  <div><label>Buscar</label><input name="q" value="{{ q or '' }}" placeholder="nombre, correo o número"></div>
+  <div><label>Estado</label><select name="estado"><option value="">Todos</option>{% for e in estados %}<option {{ 'selected' if estado==e }}>{{ e }}</option>{% endfor %}</select></div>
+  <div><label>Vacante</label><select name="vacante"><option value="">Todas</option>{% for v in vacantes %}<option value="{{ v.id }}" {{ 'selected' if vacante==v.id }}>{{ v.codigo }}</option>{% endfor %}</select></div>
+  <div><button class="btn">Filtrar</button></div>
+</form>
+<div class="card"><table>
+<tr><th>Número</th><th>Candidato</th><th>Vacante</th><th>Puntaje</th><th>Estado</th><th>Canal</th><th>Recibida</th></tr>
+{% for f in filas %}<tr>
+  <td><a href="/app/postulaciones/{{ f.id }}">{{ f.numero }}</a></td><td>{{ f.nombre }}<br><span class="mut small">{{ f.correo }}</span></td>
+  <td>{{ f.codigo }}</td><td>{% if f.puntaje is not none %}{{ f.puntaje }} <span class="badge b-{{ f.clasificacion }}">{{ f.clasificacion }}</span>{% else %}—{% endif %}</td>
+  <td><span class="badge b-{{ f.estado }}">{{ f.estado }}</span></td><td>{{ f.canal }}</td><td class="small">{{ f.recibida_en|fecha }}</td></tr>
+{% else %}<tr><td colspan="7" class="mut">No hay postulaciones.</td></tr>{% endfor %}
+</table></div>
+{% endblock %}

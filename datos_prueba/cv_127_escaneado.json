@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Jiménez Álvarez",
+    "correo": "sebastian.jimenez.alvarez127@correo.com",
+    "telefono": "3260464783",
+    "documento": "1110039044",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-06",
+      "fecha_fin": "2020-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "TCS",
+      "fecha_inicio": "2021-01",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Python",
+    "PostgreSQL",
+    "Java",
+    "Scrum",
+    "Git",
+    "SQL",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

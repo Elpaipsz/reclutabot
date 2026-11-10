@@ -1,0 +1,47 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Martínez García",
+    "correo": "santiago.martinez.garcia33@correo.com",
+    "telefono": "3126603844",
+    "documento": "1150626895",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2023-06",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Scrum",
+    "Excel",
+    "Git",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

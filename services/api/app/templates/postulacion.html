@@ -1,0 +1,32 @@
+{% extends "base.html" %}{% block title %}{{ p.numero }}{% endblock %}
+{% block body %}
+<h1>{{ p.numero }} <span class="badge b-{{ p.estado }}">{{ p.estado }}</span></h1>
+<p class="sub">{{ p.nombre }} · {{ p.correo }} · {{ p.titulo }} ({{ p.codigo }}) · canal {{ p.canal }} · {{ p.recibida_en|fecha }}</p>
+<div class="grid g3">
+  <div class="card kpi"><b>{{ p.puntaje if p.puntaje is not none else '—' }}</b><span>Puntaje de ajuste {% if p.clasificacion %}<span class="badge b-{{ p.clasificacion }}">{{ p.clasificacion }}</span>{% endif %}</span></div>
+  <div class="card kpi"><b>{{ p.rrhh_id or '—' }}</b><span>ID en sistema RR.HH. (RPA)</span></div>
+  <div class="card kpi"><b>{{ ext.anios_experiencia if ext else '—' }}</b><span>Años de experiencia</span></div>
+</div>
+<div class="split">
+  <div>
+    {% if ext %}<div class="card"><h2>Perfil extraído por IA</h2><p>{{ ext.resumen }}</p>
+      {% set d = ext.datos_validados or ext.datos %}
+      <p class="small"><b>Habilidades:</b> {{ d.habilidades|join(', ') }}<br>
+      <b>Formación:</b> {% for f in d.formacion %}{{ f.titulo }} ({{ f.nivel }}){{ ', ' if not loop.last }}{% endfor %}<br>
+      <b>Idiomas:</b> {% for i in d.idiomas %}{{ i.idioma }} {{ i.nivel or '' }}{{ ', ' if not loop.last }}{% else %}—{% endfor %}</p>
+      <p class="small mut">{% if ext.validado_en %}Validado por un analista el {{ ext.validado_en|fecha }}{% else %}Aún sin validación humana{% endif %} · costo IA ${{ ext.costo_usd }}</p></div>{% endif %}
+    {% if decisiones %}<div class="card"><h2>Decisiones humanas</h2><table>{% for d in decisiones %}
+      <tr><td>{{ d.creada_en|fecha }}</td><td>{{ d.tipo }}</td><td><b>{{ d.resultado }}</b></td><td>{{ d.usuario }}</td><td>{{ d.observacion or '' }}</td></tr>{% endfor %}</table></div>{% endif %}
+    {% if incidencias %}<div class="card"><h2>Incidencias</h2>{% for i in incidencias %}<div class="alert err"><b>{{ i.origen }}</b> · {{ i.creada_en|fecha }}<br>{{ i.detalle }}
+      {% if i.captura_path %}<br><a href="/app/capturas/{{ i.captura_path }}" target="_blank">Ver captura</a>{% endif %}</div>{% endfor %}</div>{% endif %}
+    <div class="card"><h2>Correos al candidato</h2>{% for n in notifs %}<div class="small">{{ n.creada_en|fecha }} · {{ n.plantilla }} · {{ 'enviado' if n.enviada else 'ERROR: ' ~ n.error }}</div>{% else %}<span class="mut">Ninguno</span>{% endfor %}</div>
+  </div>
+  <div>
+    <div class="card"><h2>Trazabilidad</h2><div class="tl">
+      {% for e in eventos %}<div><b>{{ e.accion }}</b>{% if e.resultado %} → {{ e.resultado }}{% endif %}<br><span class="mut small">{{ e.creado_en|fecha }} · {{ e.actor }}</span></div>{% endfor %}</div></div>
+    {% if hist %}<div class="card"><h2>Historial del proceso (Flowable)</h2><table class="small">{% for h in hist %}<tr><td>{{ h.actividad }}</td><td>{{ h.tipo }}</td><td>{{ h.asignado or '' }}</td></tr>{% endfor %}</table></div>{% endif %}
+    <div class="card"><a class="btn sec" href="/app/postulaciones/{{ p.id }}/archivo" target="_blank">Ver hoja de vida original</a>
+      {% if u.rol == 'admin' %}<form method="post" action="/app/postulaciones/{{ p.id }}/eliminar-datos" style="display:inline" onsubmit="return confirm('Eliminar datos personales de este candidato? No se puede deshacer')"><button class="btn red">Eliminar datos personales</button></form>{% endif %}</div>
+  </div>
+</div>
+{% endblock %}

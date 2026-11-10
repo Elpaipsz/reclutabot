@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago López Álvarez",
+    "correo": "santiago.lopez.alvarez8@correo.com",
+    "telefono": "3258553593",
+    "documento": "1039353318",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad del Valle",
+      "anio": 2019,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Accenture",
+      "fecha_inicio": "2020-02",
+      "fecha_fin": "2022-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Accenture",
+      "fecha_inicio": "2023-12",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Linux",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,52 @@
+flowchart TD
+  A1(["Postulación recibida<br/>formulario web o correo"]):::cand
+  B1["Recibir y almacenar<br/>número POST y correo de confirmación"]:::sis
+  B2{"¿Documento válido<br/>y no duplicado?"}:::sis
+  F1(("Documento inválido<br/>o duplicada")):::fin
+  B3["IA: extraer datos<br/>con confianza por campo"]:::sis
+  B4{"¿Extracción<br/>correcta?"}:::sis
+  C1["Auxiliar: atender incidencia<br/>o registrar manualmente"]:::aux
+  F2(("Cerrada por<br/>incidencia")):::fin
+  B5["Reglas: puntaje 0 a 100<br/>y clasificación"]:::sis
+  B6{"¿Cumple y<br/>confianza alta?"}:::sis
+  D1["Analista: validar hoja de vida<br/>y corregir datos"]:::ana
+  D2{"Decisión<br/>del analista"}:::ana
+  B14["Escalar al coordinador<br/>a las 24 h hábiles sin atender"]:::sis
+  B7["Estado Aprobada"]:::sis
+  B8["RPA: registrar en RR.HH.<br/>y capturar ID"]:::sis
+  B9{"¿Registrado?<br/>hasta 3 intentos"}:::sis
+  B10["Estado Registrada"]:::sis
+  E1{"Coordinador:<br/>¿continúa a entrevista?"}:::coo
+  B11["Estado En entrevista<br/>y aviso al candidato"]:::sis
+  B13["Notificar al candidato<br/>con plantilla editable"]:::sis
+  F3(("No continúa")):::fin
+  F4(("Pasa a entrevistas")):::fin
+
+  A1 --> B1 --> B2
+  B2 -- no --> F1
+  B2 -- sí --> B3 --> B4
+  B4 -- falla --> C1
+  C1 -- reintentar --> B3
+  C1 -- cerrar --> F2
+  B4 -- ok --> B5 --> B6
+  B6 -- no --> D1
+  B6 -- sí --> B7
+  D1 --> D2
+  D1 -. sin atender .-> B14 -.-> E1
+  D2 -- pedir información --> D1
+  D2 -- rechazar con observación --> B13
+  D2 -- aprobar --> B7
+  B7 --> B8 --> B9
+  B9 -- falla --> C1
+  C1 -- registro manual hecho --> B10
+  B9 -- ok --> B10 --> E1
+  E1 -- no --> B13
+  E1 -- sí --> B11 --> F4
+  B13 --> F3
+
+  classDef cand fill:#fde8f7,stroke:#a0359b,color:#222
+  classDef sis fill:#e6f4ff,stroke:#2b6cb0,color:#222
+  classDef aux fill:#fff1de,stroke:#c46f0c,color:#222
+  classDef ana fill:#e4f7ec,stroke:#228b57,color:#222
+  classDef coo fill:#efe7ff,stroke:#6b46c1,color:#222
+  classDef fin fill:#f1f1f1,stroke:#555,color:#222

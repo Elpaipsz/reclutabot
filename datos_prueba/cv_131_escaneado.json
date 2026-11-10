@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Álvarez Martínez",
+    "correo": "mateo.alvarez.martinez131@correo.com",
+    "telefono": "3133786020",
+    "documento": "1004082130",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2015,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "FastAPI",
+    "SQL",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

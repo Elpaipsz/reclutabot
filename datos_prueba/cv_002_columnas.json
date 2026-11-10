@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Torres Rodríguez",
+    "correo": "santiago.torres.rodriguez2@correo.com",
+    "telefono": "3086626738",
+    "documento": "1082807459",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2013-09",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "AWS",
+    "Java",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

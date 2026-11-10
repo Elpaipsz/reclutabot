@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Torres Castro",
+    "correo": "sofia.torres.castro87@correo.com",
+    "telefono": "3235165258",
+    "documento": "1018592971",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Globant",
+      "fecha_inicio": "2018-01",
+      "fecha_fin": "2021-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2022-06",
+      "fecha_fin": "2025-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "SQL",
+    "Django",
+    "Git"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

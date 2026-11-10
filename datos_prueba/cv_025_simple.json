@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "María López Ortiz",
+    "correo": "maria.lopez.ortiz25@correo.com",
+    "telefono": "3010481904",
+    "documento": "1131988668",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "SENA",
+      "anio": 2019,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Power BI",
+    "Django",
+    "Git",
+    "Docker",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

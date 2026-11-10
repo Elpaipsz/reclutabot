@@ -1,0 +1,115 @@
+x-comun: &comun
+  restart: unless-stopped
+  env_file: .env
+
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: reclutamiento
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/00-flowable-db.sql:/docker-entrypoint-initdb.d/00-flowable-db.sql:ro
+      - ./db/01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d reclutamiento"]
+      interval: 5s
+      retries: 10
+
+  flowable:
+    image: flowable/flowable-rest:7.1.0
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/flowable
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
+      SPRING_DATASOURCE_DRIVER-CLASS-NAME: org.postgresql.Driver
+      FLOWABLE_DATABASE-SCHEMA-UPDATE: "true"
+    ports:
+      - "8081:8080"
+
+  # Buzón de correo de pruebas (SMTP + IMAP) para la recepción por email y las notificaciones
+  greenmail:
+    image: greenmail/standalone:2.1.2
+    restart: unless-stopped
+    environment:
+      GREENMAIL_OPTS: >-
+        -Dgreenmail.setup.test.all -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.auth.disabled -Dgreenmail.verbose
+    ports:
+      - "3025:3025"
+      - "3143:3143"
+
+  api:
+    <<: *comun
+    build:
+      context: ./services
+      dockerfile: api/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/reclutamiento
+      FLOWABLE_URL: http://flowable:8080/flowable-rest
+      UPLOADS_DIR: /data/uploads
+    volumes:
+      - uploads:/data/uploads
+    ports:
+      - "8000:8000"
+
+  # HTTPS local (RNF-11): https://localhost:8443 -> api
+  https:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on: [api]
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddydata:/data
+    ports:
+      - "8443:443"
+
+  ia:
+    <<: *comun
+    build:
+      context: ./services
+      dockerfile: ai/Dockerfile
+    depends_on: [api]
+    environment:
+      FLOWABLE_URL: http://flowable:8080/flowable-rest
+      API_URL: http://api:8000
+      UPLOADS_DIR: /data/uploads
+    volumes:
+      - uploads:/data/uploads:ro
+
+  rrhh:
+    restart: unless-stopped
+    build: ./services/rrhh
+    volumes:
+      - rrhhdata:/data
+    ports:
+      - "9000:9000"
+
+  rpa:
+    <<: *comun
+    build:
+      context: ./services
+      dockerfile: rpa/Dockerfile
+    depends_on: [api, rrhh]
+    environment:
+      FLOWABLE_URL: http://flowable:8080/flowable-rest
+      API_URL: http://api:8000
+      RRHH_URL: http://rrhh:9000
+      UPLOADS_DIR: /data/uploads
+    volumes:
+      - uploads:/data/uploads
+
+volumes:
+  pgdata:
+  uploads:
+  rrhhdata:
+  caddydata:

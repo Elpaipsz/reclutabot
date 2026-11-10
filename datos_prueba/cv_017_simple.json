@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Álvarez Castro",
+    "correo": "laura.alvarez.castro17@correo.com",
+    "telefono": "3266070842",
+    "documento": "1071903053",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad Nacional",
+      "anio": 2012,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Rappi",
+      "fecha_inicio": "2015-05",
+      "fecha_fin": "2016-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2017-02",
+      "fecha_fin": "2019-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-05",
+      "fecha_fin": "2021-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "FastAPI",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

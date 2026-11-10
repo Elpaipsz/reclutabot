@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "María Ortiz López",
+    "correo": "maria.ortiz.lopez155@correo.com",
+    "telefono": "3260447500",
+    "documento": "1140171976",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2023,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Rappi",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2023-10",
+      "fecha_fin": "2026-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "JavaScript",
+    "Docker",
+    "Power BI",
+    "Python",
+    "Excel",
+    "FastAPI",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

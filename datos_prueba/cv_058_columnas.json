@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Jiménez Torres",
+    "correo": "isabella.jimenez.torres58@correo.com",
+    "telefono": "3131598901",
+    "documento": "1063407958",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Endava",
+      "fecha_inicio": "2017-03",
+      "fecha_fin": "2020-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Django",
+    "Linux",
+    "FastAPI",
+    "Kubernetes"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

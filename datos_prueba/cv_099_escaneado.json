@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Rojas Torres",
+    "correo": "sebastian.rojas.torres99@correo.com",
+    "telefono": "3021739440",
+    "documento": "1046564853",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "Python",
+    "PostgreSQL",
+    "Git",
+    "React",
+    "Kubernetes"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

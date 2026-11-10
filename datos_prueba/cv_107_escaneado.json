@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Hernández Ortiz",
+    "correo": "paula.hernandez.ortiz107@correo.com",
+    "telefono": "3099460464",
+    "documento": "1041551422",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2015-11",
+      "fecha_fin": "2017-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "FastAPI",
+    "Power BI",
+    "PostgreSQL",
+    "Python",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

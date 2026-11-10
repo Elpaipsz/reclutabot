@@ -1,0 +1,37 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Ortiz Gómez",
+    "correo": "sofia.ortiz.gomez5@correo.com",
+    "telefono": "3117912728",
+    "documento": "1058574703",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad Nacional",
+      "anio": 2017,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "JavaScript",
+    "Git",
+    "Java",
+    "Kubernetes",
+    "FastAPI",
+    "Django",
+    "Excel",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

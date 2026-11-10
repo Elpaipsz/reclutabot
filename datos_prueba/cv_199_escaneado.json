@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Ortiz Ortiz",
+    "correo": "felipe.ortiz.ortiz199@correo.com",
+    "telefono": "3242799105",
+    "documento": "1172929005",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "TCS",
+      "fecha_inicio": "2014-11",
+      "fecha_fin": "2015-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Scrum",
+    "Kubernetes",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

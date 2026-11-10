@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Hernández Álvarez",
+    "correo": "daniela.hernandez.alvarez145@correo.com",
+    "telefono": "3157007055",
+    "documento": "1120694935",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2024,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2016-10",
+      "fecha_fin": "2017-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Sofka",
+      "fecha_inicio": "2018-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Power BI",
+    "Django",
+    "FastAPI",
+    "Excel",
+    "PostgreSQL"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

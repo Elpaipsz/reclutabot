@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago López Díaz",
+    "correo": "santiago.lopez.diaz66@correo.com",
+    "telefono": "3290477167",
+    "documento": "1197189766",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Globant",
+      "fecha_inicio": "2020-01",
+      "fecha_fin": "2023-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Power BI",
+    "AWS",
+    "JavaScript",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Martínez Ortiz",
+    "correo": "paula.martinez.ortiz76@correo.com",
+    "telefono": "3248895812",
+    "documento": "1097395301",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2015,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Nubank",
+      "fecha_inicio": "2019-06",
+      "fecha_fin": "2022-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2023-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "Kubernetes",
+    "React",
+    "Django",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

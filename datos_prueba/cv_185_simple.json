@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Juan García Torres",
+    "correo": "juan.garcia.torres185@correo.com",
+    "telefono": "3119467002",
+    "documento": "1077569700",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Globant",
+      "fecha_inicio": "2020-10",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Rappi",
+      "fecha_inicio": "2023-05",
+      "fecha_fin": "2026-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "React",
+    "Git",
+    "PostgreSQL",
+    "Linux",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

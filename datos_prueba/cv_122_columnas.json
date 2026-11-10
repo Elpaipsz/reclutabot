@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Martínez García",
+    "correo": "daniela.martinez.garcia122@correo.com",
+    "telefono": "3094080621",
+    "documento": "1071954403",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Rappi",
+      "fecha_inicio": "2020-07",
+      "fecha_fin": "2023-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Sofka",
+      "fecha_inicio": "2024-06",
+      "fecha_fin": "2026-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Python",
+    "Kubernetes"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Vargas Rojas",
+    "correo": "daniela.vargas.rojas148@correo.com",
+    "telefono": "3286559348",
+    "documento": "1056622800",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2016-01",
+      "fecha_fin": "2017-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Excel",
+    "Kubernetes",
+    "Scrum"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

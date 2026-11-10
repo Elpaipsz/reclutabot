@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Moreno Álvarez",
+    "correo": "nicolas.moreno.alvarez138@correo.com",
+    "telefono": "3162008013",
+    "documento": "1123451974",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2013,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-03",
+      "fecha_fin": "2022-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2023-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "AWS",
+    "Scrum",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

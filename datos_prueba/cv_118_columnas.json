@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Díaz Díaz",
+    "correo": "laura.diaz.diaz118@correo.com",
+    "telefono": "3173855021",
+    "documento": "1042488912",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "SENA",
+      "anio": 2012,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2013-08",
+      "fecha_fin": "2014-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "TCS",
+      "fecha_inicio": "2015-02",
+      "fecha_fin": "2016-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Scrum",
+    "AWS",
+    "React",
+    "FastAPI",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

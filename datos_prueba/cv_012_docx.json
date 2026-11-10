@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Gómez Díaz",
+    "correo": "daniela.gomez.diaz12@correo.com",
+    "telefono": "3266455770",
+    "documento": "1134660363",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Globant",
+      "fecha_inicio": "2016-09",
+      "fecha_fin": "2018-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-12",
+      "fecha_fin": "2020-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Scrum",
+    "JavaScript",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

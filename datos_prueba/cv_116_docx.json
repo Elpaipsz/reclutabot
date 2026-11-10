@@ -1,0 +1,57 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ortiz Rodríguez",
+    "correo": "juan.ortiz.rodriguez116@correo.com",
+    "telefono": "3211563234",
+    "documento": "1068616344",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2021,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2016-02",
+      "fecha_fin": "2018-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Rappi",
+      "fecha_inicio": "2019-10",
+      "fecha_fin": "2020-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Accenture",
+      "fecha_inicio": "2021-06",
+      "fecha_fin": "2024-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Power BI",
+    "Kubernetes",
+    "JavaScript",
+    "Python",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

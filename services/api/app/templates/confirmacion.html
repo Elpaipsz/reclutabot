@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% block title %}Postulación recibida{% endblock %}
+{% block body %}
+<div style="max-width:560px">
+  {% if r.duplicada %}
+  <h1>Ya teníamos tu postulación</h1>
+  <p class="lead">Te postulaste a este cargo en los últimos 30 días, así que no abrimos un proceso nuevo. El anterior sigue su curso.</p>
+  {% else %}
+  <h1>Recibimos tu hoja de vida</h1>
+  <p class="lead">Ya está en el proceso de selección y te enviamos la confirmación por correo.</p>
+  {% endif %}
+  <p class="mut" style="margin:26px 0 0">Tu número de postulación</p>
+  <p class="numero">{{ r.numero }}</p>
+  <p class="small mut">Guárdalo: con este número y tu correo puedes <a href="/estado">consultar el estado</a>.</p>
+  <p><a class="btn sec" href="/">Ver otros cargos</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Jiménez Martínez",
+    "correo": "mateo.jimenez.martinez77@correo.com",
+    "telefono": "3147557407",
+    "documento": "1114340079",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "SENA",
+      "anio": 2021,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Rappi",
+      "fecha_inicio": "2013-09",
+      "fecha_fin": "2015-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Nubank",
+      "fecha_inicio": "2016-04",
+      "fecha_fin": "2017-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Kubernetes",
+    "Scrum",
+    "Python",
+    "Docker",
+    "SQL",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

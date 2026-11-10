@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Ramírez Martínez",
+    "correo": "sofia.ramirez.martinez27@correo.com",
+    "telefono": "3197619725",
+    "documento": "1069838599",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "UPB",
+      "anio": 2023,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Sofka",
+      "fecha_inicio": "2019-03",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Globant",
+      "fecha_inicio": "2023-01",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "JavaScript",
+    "React",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

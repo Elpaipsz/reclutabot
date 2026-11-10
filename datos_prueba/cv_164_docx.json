@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Hernández Moreno",
+    "correo": "daniel.hernandez.moreno164@correo.com",
+    "telefono": "3020260966",
+    "documento": "1197566881",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2020-10",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Excel",
+    "Power BI",
+    "Scrum",
+    "SQL",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

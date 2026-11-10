@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}Histórico de vacantes{% endblock %}
+{% block body %}
+<h1>Histórico de vacantes cerradas</h1>
+<p class="sub">Vacantes que ya no reciben postulaciones, con el resultado final de cada proceso.</p>
+<div class="card"><table>
+<tr><th>Vacante</th><th>Postulaciones</th><th>Resultados finales</th><th></th></tr>
+{% for v in vacantes %}<tr>
+  <td><b>{{ v.titulo }}</b> <span class="badge">{{ v.codigo }}</span><br><span class="mut small">creada {{ v.creada_en|fecha }}</span></td>
+  <td>{{ v.total }}</td>
+  <td>{% for e, n in v.estados.items() %}<span class="badge b-{{ e }}">{{ e }}: {{ n }}</span> {% else %}<span class="mut">Sin postulaciones</span>{% endfor %}</td>
+  <td class="right"><a class="btn sec" href="/app/postulaciones?vacante={{ v.id }}">Ver postulaciones</a></td></tr>
+{% else %}<tr><td colspan="4" class="mut">No hay vacantes cerradas. Cierra una desde <a href="/app/vacantes">Vacantes</a> cambiando su estado a «cerrada».</td></tr>{% endfor %}
+</table></div>
+{% endblock %}

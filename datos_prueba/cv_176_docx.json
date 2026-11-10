@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Martínez Rojas",
+    "correo": "valentina.martinez.rojas176@correo.com",
+    "telefono": "3058519835",
+    "documento": "1019994000",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Kubernetes",
+    "Linux",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

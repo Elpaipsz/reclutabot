@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Gómez García",
+    "correo": "sofia.gomez.garcia183@correo.com",
+    "telefono": "3160158829",
+    "documento": "1137345778",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "SENA",
+      "anio": 2019,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Git",
+    "AWS",
+    "SQL",
+    "Scrum",
+    "JavaScript",
+    "Excel",
+    "PostgreSQL",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián García López",
+    "correo": "sebastian.garcia.lopez60@correo.com",
+    "telefono": "3142533856",
+    "documento": "1107409603",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "PostgreSQL",
+    "Scrum",
+    "Git",
+    "JavaScript",
+    "Power BI",
+    "Python",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Camila Torres Castro",
+    "correo": "camila.torres.castro90@correo.com",
+    "telefono": "3031282459",
+    "documento": "1147942439",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2021-07",
+      "fecha_fin": "2024-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2025-06",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Linux",
+    "Python",
+    "React",
+    "Git"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Jiménez Castro",
+    "correo": "mateo.jimenez.castro195@correo.com",
+    "telefono": "3247391826",
+    "documento": "1035715361",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "JavaScript",
+    "Linux",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

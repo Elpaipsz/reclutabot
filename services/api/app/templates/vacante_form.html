@@ -1,0 +1,55 @@
+{% extends "base.html" %}{% block title %}{{ 'Editar' if v else 'Nueva' }} vacante{% endblock %}
+{% block body %}
+<p class="small"><a href="/app/vacantes">Volver a vacantes</a></p>
+<h1>{{ 'Editar vacante ' + v.codigo if v else 'Nueva vacante' }}</h1>
+<p class="sub">Los candidatos ven la oferta (bloque 1). Los requisitos y los pesos (bloques 2 y 3) solo los ve el personal y definen el puntaje de cada hoja de vida.</p>
+<form method="post" action="/app/vacantes/guardar">
+  {% if v %}<input type="hidden" name="vid" value="{{ v.id }}">{% endif %}
+
+  <div class="card"><h2>1. La oferta (pública)</h2>
+    <div class="grid g3">
+      <div><label>Código</label><input name="codigo" value="{{ v.codigo if v else '' }}" placeholder="VAC-004" required pattern="[A-Za-z0-9-]+"><span class="mut small">Va en el asunto del correo y en el enlace.</span></div>
+      <div><label>Título del cargo</label><input name="titulo" value="{{ v.titulo if v else '' }}" required></div>
+      <div><label>Estado</label><select name="estado"><option value="activa" {{ 'selected' if not v or v.estado=='activa' }}>Publicada</option><option value="cerrada" {{ 'selected' if v and v.estado=='cerrada' }}>Cerrada</option></select></div>
+    </div>
+    <div class="grid g4">
+      <div><label>Área</label><input name="area" value="{{ v.area or '' if v }}" placeholder="Tecnología"></div>
+      <div><label>Ubicación</label><input name="ubicacion" value="{{ v.ubicacion or '' if v }}" placeholder="Bogotá"></div>
+      <div><label>Modalidad</label><select name="modalidad">{% for m in ['', 'Presencial', 'Híbrido', 'Remoto'] %}<option {{ 'selected' if v and (v.modalidad or '')==m }}>{{ m }}</option>{% endfor %}</select></div>
+      <div><label>Contrato</label><select name="contrato">{% for m in ['', 'Término indefinido', 'Término fijo', 'Prestación de servicios', 'Prácticas'] %}<option {{ 'selected' if v and (v.contrato or '')==m }}>{{ m }}</option>{% endfor %}</select></div>
+    </div>
+    <label>Salario (opcional)</label><input name="salario" value="{{ v.salario or '' if v }}" placeholder="$4.000.000 – $5.500.000 COP">
+    <label>Descripción del cargo</label><textarea name="descripcion" rows="3">{{ v.descripcion or '' if v }}</textarea>
+    <div class="grid g2">
+      <div><label>Responsabilidades <span class="mut">(una por línea)</span></label><textarea name="responsabilidades" rows="4">{{ v.responsabilidades or '' if v }}</textarea></div>
+      <div><label>Qué ofrecemos <span class="mut">(una por línea)</span></label><textarea name="ofrecemos" rows="4">{{ v.ofrecemos or '' if v }}</textarea></div>
+    </div>
+  </div>
+
+  <div class="card"><h2>2. Requisitos (para el puntaje)</h2>
+    <div class="grid g2">
+      <div><label>Años de experiencia mínimos</label><input name="anios" type="number" min="0" step="0.5" value="{{ req.get('anios_experiencia', 0) }}"></div>
+      <div><label>Formación mínima</label><select name="formacion"><option value="">No exigida</option>{% for n in niveles %}<option {{ 'selected' if req.get('formacion_minima')==n }}>{{ n }}</option>{% endfor %}</select></div>
+    </div>
+    <label>Habilidades imprescindibles <span class="mut">(separadas por coma)</span></label><input name="obligatorias" value="{{ req.get('habilidades_obligatorias', [])|join(', ') }}" placeholder="Python, SQL">
+    <label>Habilidades deseables <span class="mut">(separadas por coma)</span></label><input name="deseables" value="{{ req.get('habilidades_deseables', [])|join(', ') }}" placeholder="Docker, FastAPI">
+    <label>Idiomas <span class="mut">(idioma y nivel, separados por coma)</span></label>
+    <input name="idiomas" value="{% for i in req.get('idiomas', []) %}{{ i.idioma }}{{ ' ' + i.nivel if i.nivel }}{{ ', ' if not loop.last }}{% endfor %}" placeholder="Inglés B2">
+  </div>
+
+  <div class="card"><h2>3. Qué tanto pesa cada criterio</h2>
+    <p class="mut small">Los números son relativos: se normalizan solos para sumar 100 %. Total actual: <b id="tot">100</b></p>
+    <div class="grid g4">
+      {% for k, nombre in [('experiencia','Experiencia'), ('formacion','Formación'), ('habilidades','Habilidades'), ('idioma','Idiomas')] %}
+      <div><label>{{ nombre }}</label><input class="peso" name="p_{{ k }}" type="number" min="0" max="100" step="1" value="{{ (pesos.get(k, 0) * 100)|round|int }}"></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <p><button class="btn">Guardar vacante</button> <a class="btn sec" href="/app/vacantes">Cancelar</a></p>
+</form>
+<script>
+const tot=()=>{document.getElementById('tot').textContent=[...document.querySelectorAll('.peso')].reduce((a,i)=>a+(+i.value||0),0)};
+document.querySelectorAll('.peso').forEach(i=>i.oninput=tot);tot();
+</script>
+{% endblock %}

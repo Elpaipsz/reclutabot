@@ -1,0 +1,37 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Jiménez Martínez",
+    "correo": "felipe.jimenez.martinez135@correo.com",
+    "telefono": "3195179325",
+    "documento": "1128403410",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "PostgreSQL",
+    "Python",
+    "Linux",
+    "Django",
+    "Docker",
+    "JavaScript",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Vargas Vargas",
+    "correo": "santiago.vargas.vargas38@correo.com",
+    "telefono": "3235266505",
+    "documento": "1087600668",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-05",
+      "fecha_fin": "2021-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Sofka",
+      "fecha_inicio": "2022-04",
+      "fecha_fin": "2023-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "React",
+    "Java",
+    "SQL",
+    "Linux"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Torres García",
+    "correo": "santiago.torres.garcia179@correo.com",
+    "telefono": "3096090642",
+    "documento": "1126645205",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2013-04",
+      "fecha_fin": "2016-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Linux",
+    "Git"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

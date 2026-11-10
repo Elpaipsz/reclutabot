@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés López Rojas",
+    "correo": "andres.lopez.rojas160@correo.com",
+    "telefono": "3118851646",
+    "documento": "1110919038",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2024,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2018-08",
+      "fecha_fin": "2020-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Pragma",
+      "fecha_inicio": "2021-03",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "AWS",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

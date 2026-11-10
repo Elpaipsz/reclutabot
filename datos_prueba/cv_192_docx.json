@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Hernández Gómez",
+    "correo": "nicolas.hernandez.gomez192@correo.com",
+    "telefono": "3271379721",
+    "documento": "1064672225",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2021,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Linux",
+    "Power BI",
+    "Python",
+    "Scrum",
+    "SQL",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

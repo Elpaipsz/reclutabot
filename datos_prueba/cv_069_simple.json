@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Vargas Hernández",
+    "correo": "isabella.vargas.hernandez69@correo.com",
+    "telefono": "3184396090",
+    "documento": "1108992618",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Excel",
+    "PostgreSQL",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

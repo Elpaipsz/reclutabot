@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás López Rojas",
+    "correo": "nicolas.lopez.rojas41@correo.com",
+    "telefono": "3231970008",
+    "documento": "1106776143",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Linux",
+    "PostgreSQL",
+    "Git",
+    "Python",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

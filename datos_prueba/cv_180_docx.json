@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Gómez Álvarez",
+    "correo": "felipe.gomez.alvarez180@correo.com",
+    "telefono": "3169581655",
+    "documento": "1125941156",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2014-12",
+      "fecha_fin": "2017-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-08",
+      "fecha_fin": "2019-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2020-08",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "Kubernetes",
+    "React",
+    "SQL",
+    "JavaScript",
+    "Excel",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,30 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Castro Torres",
+    "correo": "isabella.castro.torres93@correo.com",
+    "telefono": "3016367568",
+    "documento": "1068866760",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "SENA",
+      "anio": 2015,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "React",
+    "Kubernetes",
+    "Git",
+    "Java"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

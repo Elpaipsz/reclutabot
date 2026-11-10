@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás García Castro",
+    "correo": "nicolas.garcia.castro184@correo.com",
+    "telefono": "3128480270",
+    "documento": "1070081284",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Nubank",
+      "fecha_inicio": "2013-04",
+      "fecha_fin": "2014-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Pragma",
+      "fecha_inicio": "2015-10",
+      "fecha_fin": "2017-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Git",
+    "Django"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

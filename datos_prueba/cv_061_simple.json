@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Álvarez López",
+    "correo": "sofia.alvarez.lopez61@correo.com",
+    "telefono": "3182616531",
+    "documento": "1055024415",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "SENA",
+      "anio": 2020,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Rappi",
+      "fecha_inicio": "2016-04",
+      "fecha_fin": "2019-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Linux",
+    "Excel",
+    "Docker",
+    "React",
+    "Scrum",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

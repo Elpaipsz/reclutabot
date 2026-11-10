@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina López Ramírez",
+    "correo": "valentina.lopez.ramirez46@correo.com",
+    "telefono": "3131309406",
+    "documento": "1086929871",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2019,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Endava",
+      "fecha_inicio": "2017-12",
+      "fecha_fin": "2020-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Kubernetes",
+    "React",
+    "JavaScript",
+    "SQL",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

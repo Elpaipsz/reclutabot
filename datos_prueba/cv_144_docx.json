@@ -1,0 +1,28 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ortiz López",
+    "correo": "juan.ortiz.lopez144@correo.com",
+    "telefono": "3175755396",
+    "documento": "1093401728",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2015,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Git",
+    "JavaScript",
+    "PostgreSQL"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block title %}Mis tareas{% endblock %}
+{% block body %}
+<h1>Mis tareas</h1><p class="sub">Tareas humanas que Flowable ha asignado a tu rol.</p>
+<div class="card"><table>
+<tr><th>Tarea</th><th>Postulación</th><th>Candidato</th><th>Puntaje</th><th>Creada</th><th></th></tr>
+{% for t in tareas %}{% set i = info.get(t.postulacion_id) %}<tr>
+  <td><b>{{ t.nombre }}</b>{% if t.asignada %}<br><span class="mut small">en curso: {{ t.asignada }}</span>{% endif %}</td>
+  <td>{% if i %}<a href="/app/postulaciones/{{ i.id }}">{{ i.numero }}</a><br><span class="mut small">{{ i.titulo }}</span>{% endif %}</td>
+  <td>{{ i.nombre if i }}</td><td>{% if i and i.puntaje is not none %}{{ i.puntaje }} <span class="badge b-{{ i.clasificacion }}">{{ i.clasificacion }}</span>{% endif %}</td>
+  <td class="small">{{ t.creada[:16].replace('T',' ') }}</td><td class="right"><a class="btn" href="/app/tareas/{{ t.id }}">Abrir</a></td></tr>
+{% else %}<tr><td colspan="6" class="mut">No tienes tareas pendientes. 🎉</td></tr>{% endfor %}
+</table></div>
+{% endblock %}

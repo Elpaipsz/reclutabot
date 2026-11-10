@@ -1,0 +1,40 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Ortiz Ramírez",
+    "correo": "valentina.ortiz.ramirez165@correo.com",
+    "telefono": "3033511279",
+    "documento": "1185575009",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Nubank",
+      "fecha_inicio": "2021-06",
+      "fecha_fin": "2024-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Excel",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

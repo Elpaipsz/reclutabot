@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Jiménez Rodríguez",
+    "correo": "sofia.jimenez.rodriguez22@correo.com",
+    "telefono": "3281833303",
+    "documento": "1024680473",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Rappi",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2023-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "PostgreSQL",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

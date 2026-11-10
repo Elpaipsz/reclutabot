@@ -1,0 +1,29 @@
+{% extends "base.html" %}{% block title %}Vacantes{% endblock %}
+{% block body %}
+<div class="rowhead"><div><h1>Vacantes</h1><p class="sub" style="margin:0">Cada vacante publicada aparece en la página de empleos. Aquí también defines cómo se puntúan las hojas de vida.</p></div>
+  <a class="btn" href="/app/vacantes/nueva">Nueva vacante</a></div>
+{% if error %}<div class="alert err">{{ error }}</div>{% endif %}
+{% if ok %}<div class="alert ok">{{ ok }}</div>{% endif %}
+<div class="card" style="padding:0;overflow:auto">
+<table>
+  <tr><th>Vacante</th><th>Estado</th><th>Postulaciones</th><th>Enlace público</th><th class="right">Acciones</th></tr>
+  {% for v in vacantes %}
+  <tr>
+    <td><b>{{ v.titulo }}</b> <span class="badge">{{ v.codigo }}</span>
+      <div class="mut small">{{ [v.area, v.modalidad, v.ubicacion]|select|join(', ') or 'Sin datos de la oferta' }}</div></td>
+    <td><span class="badge {{ 'b-ok' if v.estado=='activa' else 'b-Descartada' }}">{{ 'Publicada' if v.estado=='activa' else 'Cerrada' }}</span></td>
+    <td><a href="/app/postulaciones?vacante={{ v.id }}">{{ v.n }}</a></td>
+    <td class="small">{% if v.estado=='activa' %}<a href="/empleos/{{ v.codigo }}" target="_blank">Ver oferta</a>
+      <button type="button" class="btn sec mini" data-copiar="{{ url_publica }}/empleos/{{ v.codigo }}">Copiar enlace</button>{% else %}<span class="mut">—</span>{% endif %}</td>
+    <td class="right nowrap">
+      <a class="btn sec mini" href="/app/vacantes/{{ v.id }}/editar">Editar</a>
+      <form method="post" action="/app/vacantes/estado" style="display:inline"><input type="hidden" name="vid" value="{{ v.id }}">
+        <input type="hidden" name="estado" value="{{ 'cerrada' if v.estado=='activa' else 'activa' }}">
+        <button class="btn sec mini">{{ 'Cerrar' if v.estado=='activa' else 'Reabrir' }}</button></form>
+    </td>
+  </tr>
+  {% endfor %}
+</table></div>
+<div class="card info small"><b>Para publicar en LinkedIn, Indeed u otro portal,</b> crea la oferta allí y, en «Postularse en el sitio web de la empresa», pega el enlace de la vacante. Quien se postule llega a nuestro formulario y su hoja de vida entra directo al proceso automático. Cada oferta incluye además datos estructurados para que Google Empleos pueda indexarla.</div>
+<script>document.querySelectorAll('[data-copiar]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.dataset.copiar);const t=b.textContent;b.textContent='Copiado';setTimeout(()=>b.textContent=t,1500)})</script>
+{% endblock %}

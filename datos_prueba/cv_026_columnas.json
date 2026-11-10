@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Castro Rojas",
+    "correo": "isabella.castro.rojas26@correo.com",
+    "telefono": "3123651266",
+    "documento": "1013855970",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2015,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2013-06",
+      "fecha_fin": "2015-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2016-02",
+      "fecha_fin": "2019-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "SQL",
+    "Kubernetes",
+    "Git",
+    "React",
+    "Docker",
+    "Java",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

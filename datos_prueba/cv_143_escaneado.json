@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Hernández Vargas",
+    "correo": "isabella.hernandez.vargas143@correo.com",
+    "telefono": "3096004469",
+    "documento": "1078130917",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2021-11",
+      "fecha_fin": "2022-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "SQL",
+    "JavaScript",
+    "Kubernetes",
+    "Power BI",
+    "Excel",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

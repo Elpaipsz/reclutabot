@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela López Jiménez",
+    "correo": "daniela.lopez.jimenez142@correo.com",
+    "telefono": "3140033810",
+    "documento": "1176866829",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2024,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Scrum",
+    "Django",
+    "Kubernetes",
+    "Python",
+    "Power BI",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

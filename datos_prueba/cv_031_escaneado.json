@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Álvarez Torres",
+    "correo": "sebastian.alvarez.torres31@correo.com",
+    "telefono": "3140438711",
+    "documento": "1132323501",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2012,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-01",
+      "fecha_fin": "2020-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2021-07",
+      "fecha_fin": "2024-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "Docker",
+    "Linux",
+    "Git",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

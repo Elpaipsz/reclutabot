@@ -1,0 +1,10 @@
+{
+	local_certs
+}
+
+# HTTPS local (RNF-11): el navegador mostrará una advertencia porque el certificado lo emite la CA interna de Caddy.
+# En producción se usaría un dominio real y Caddy obtendría el certificado de Let's Encrypt automáticamente.
+localhost:443 {
+	tls internal
+	reverse_proxy api:8000
+}

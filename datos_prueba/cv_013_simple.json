@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés Hernández Álvarez",
+    "correo": "andres.hernandez.alvarez13@correo.com",
+    "telefono": "3179571586",
+    "documento": "1142465771",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "FastAPI",
+    "SQL",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

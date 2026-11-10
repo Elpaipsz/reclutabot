@@ -1,0 +1,40 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Díaz López",
+    "correo": "isabella.diaz.lopez109@correo.com",
+    "telefono": "3292323230",
+    "documento": "1196130190",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Rappi",
+      "fecha_inicio": "2020-06",
+      "fecha_fin": "2023-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "FastAPI",
+    "Django",
+    "Power BI",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

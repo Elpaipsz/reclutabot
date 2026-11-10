@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "María Vargas García",
+    "correo": "maria.vargas.garcia71@correo.com",
+    "telefono": "3261961432",
+    "documento": "1159413811",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2013-11",
+      "fecha_fin": "2016-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Rappi",
+      "fecha_inicio": "2017-09",
+      "fecha_fin": "2020-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2021-10",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "Excel",
+    "Git",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Ramírez Vargas",
+    "correo": "valentina.ramirez.vargas15@correo.com",
+    "telefono": "3031671607",
+    "documento": "1189602284",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2024,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2015-05",
+      "fecha_fin": "2016-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Globant",
+      "fecha_inicio": "2017-02",
+      "fecha_fin": "2020-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Git",
+    "SQL",
+    "Docker",
+    "Excel",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ramírez Álvarez",
+    "correo": "juan.ramirez.alvarez3@correo.com",
+    "telefono": "3219824854",
+    "documento": "1031693041",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-08",
+      "fecha_fin": "2021-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2022-12",
+      "fecha_fin": "2023-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Accenture",
+      "fecha_inicio": "2024-09",
+      "fecha_fin": "2026-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Django",
+    "JavaScript",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

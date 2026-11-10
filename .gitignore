@@ -1,0 +1,23 @@
+# Secretos y configuración local
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Datos generados en tiempo de ejecución
+uploads/
+
+# Sistema operativo y editores
+.DS_Store
+__MACOSX/
+Thumbs.db
+.vscode/
+.idea/
+
+# Videos y grabaciones (el video final se comparte por enlace)
+*.mp4
+*.mov
+*.MOV

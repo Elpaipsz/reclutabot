@@ -1,0 +1,26 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás López Martínez",
+    "correo": "nicolas.lopez.martinez37@correo.com",
+    "telefono": "3176904217",
+    "documento": "1190527746",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "PostgreSQL",
+    "Git",
+    "JavaScript",
+    "AWS"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Hernández Rojas",
+    "correo": "isabella.hernandez.rojas1@correo.com",
+    "telefono": "3188220482",
+    "documento": "1015568967",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "Git",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

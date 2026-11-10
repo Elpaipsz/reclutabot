@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Ramírez Martínez",
+    "correo": "nicolas.ramirez.martinez173@correo.com",
+    "telefono": "3228003930",
+    "documento": "1067819237",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2012,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2013-01",
+      "fecha_fin": "2015-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Git",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

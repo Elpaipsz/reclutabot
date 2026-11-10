@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés Álvarez Gómez",
+    "correo": "andres.alvarez.gomez64@correo.com",
+    "telefono": "3130502182",
+    "documento": "1081381223",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2024,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2017-11",
+      "fecha_fin": "2018-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Rappi",
+      "fecha_inicio": "2019-07",
+      "fecha_fin": "2021-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Excel",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

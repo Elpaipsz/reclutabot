@@ -1,0 +1,27 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Rodríguez Álvarez",
+    "correo": "daniel.rodriguez.alvarez151@correo.com",
+    "telefono": "3093906966",
+    "documento": "1013508890",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Power BI",
+    "AWS",
+    "Django"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

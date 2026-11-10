@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "María Rojas Gómez",
+    "correo": "maria.rojas.gomez102@correo.com",
+    "telefono": "3085429109",
+    "documento": "1097034653",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Accenture",
+      "fecha_inicio": "2015-07",
+      "fecha_fin": "2016-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "TCS",
+      "fecha_inicio": "2017-04",
+      "fecha_fin": "2018-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Power BI",
+    "PostgreSQL",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

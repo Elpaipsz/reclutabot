@@ -1,0 +1,51 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Jiménez Ortiz",
+    "correo": "sofia.jimenez.ortiz94@correo.com",
+    "telefono": "3163907318",
+    "documento": "1118155456",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2022,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-11",
+      "fecha_fin": "2019-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2020-07",
+      "fecha_fin": "2021-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2022-09",
+      "fecha_fin": "2025-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Kubernetes",
+    "Docker",
+    "Scrum",
+    "Excel"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

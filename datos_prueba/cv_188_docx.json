@@ -1,0 +1,40 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Moreno Castro",
+    "correo": "mateo.moreno.castro188@correo.com",
+    "telefono": "3237383267",
+    "documento": "1170345577",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2019,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Sofka",
+      "fecha_inicio": "2013-06",
+      "fecha_fin": "2015-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Docker",
+    "Excel",
+    "PostgreSQL",
+    "Linux",
+    "Scrum",
+    "Django"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

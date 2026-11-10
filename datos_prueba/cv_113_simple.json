@@ -1,0 +1,60 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Castro Jiménez",
+    "correo": "valentina.castro.jimenez113@correo.com",
+    "telefono": "3228367986",
+    "documento": "1080345916",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2015-10",
+      "fecha_fin": "2018-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-11",
+      "fecha_fin": "2022-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Endava",
+      "fecha_inicio": "2023-10",
+      "fecha_fin": "2025-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Scrum",
+    "SQL",
+    "Java",
+    "Linux",
+    "JavaScript",
+    "FastAPI",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

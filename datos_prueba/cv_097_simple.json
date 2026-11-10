@@ -1,0 +1,40 @@
+{
+  "datos_personales": {
+    "nombre": "Camila López Martínez",
+    "correo": "camila.lopez.martinez97@correo.com",
+    "telefono": "3057492245",
+    "documento": "1073939947",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2020,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-07",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Scrum",
+    "AWS",
+    "FastAPI",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

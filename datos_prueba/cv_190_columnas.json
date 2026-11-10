@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Camila López Martínez",
+    "correo": "camila.lopez.martinez190@correo.com",
+    "telefono": "3093758978",
+    "documento": "1014046749",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "EAFIT",
+      "anio": 2015,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2015-02",
+      "fecha_fin": "2017-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2018-07",
+      "fecha_fin": "2020-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2021-01",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Docker",
+    "React",
+    "JavaScript"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

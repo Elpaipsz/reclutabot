@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Martínez Gómez",
+    "correo": "daniela.martinez.gomez52@correo.com",
+    "telefono": "3194650589",
+    "documento": "1185983614",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2015,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Endava",
+      "fecha_inicio": "2016-06",
+      "fecha_fin": "2019-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "Scrum",
+    "React",
+    "Power BI",
+    "Python",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

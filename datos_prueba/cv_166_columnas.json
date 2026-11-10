@@ -1,0 +1,26 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Martínez Castro",
+    "correo": "daniel.martinez.castro166@correo.com",
+    "telefono": "3285620414",
+    "documento": "1067441204",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "SENA",
+      "anio": 2019,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Power BI",
+    "PostgreSQL",
+    "Linux",
+    "Python"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Ortiz Díaz",
+    "correo": "isabella.ortiz.diaz80@correo.com",
+    "telefono": "3260076021",
+    "documento": "1037517287",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Globant",
+      "fecha_inicio": "2020-08",
+      "fecha_fin": "2021-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2022-01",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Linux",
+    "FastAPI",
+    "JavaScript",
+    "Docker",
+    "Power BI"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

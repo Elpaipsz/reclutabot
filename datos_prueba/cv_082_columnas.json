@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe López Díaz",
+    "correo": "felipe.lopez.diaz82@correo.com",
+    "telefono": "3095873771",
+    "documento": "1004302625",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2017,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2019-04",
+      "fecha_fin": "2020-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Accenture",
+      "fecha_inicio": "2021-03",
+      "fecha_fin": "2023-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "JavaScript",
+    "Python",
+    "Excel",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

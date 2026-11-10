@@ -1,0 +1,30 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Díaz Castro",
+    "correo": "mateo.diaz.castro157@correo.com",
+    "telefono": "3256606463",
+    "documento": "1037550077",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2021,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "PostgreSQL",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

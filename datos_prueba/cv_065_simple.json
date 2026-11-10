@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Camila Ramírez Martínez",
+    "correo": "camila.ramirez.martinez65@correo.com",
+    "telefono": "3181742291",
+    "documento": "1045073739",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2014-03",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Linux",
+    "React",
+    "Excel",
+    "Java",
+    "PostgreSQL",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

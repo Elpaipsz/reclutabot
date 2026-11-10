@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Torres Jiménez",
+    "correo": "mateo.torres.jimenez114@correo.com",
+    "telefono": "3197197789",
+    "documento": "1025491898",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2016-09",
+      "fecha_fin": "2017-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Power BI",
+    "JavaScript",
+    "SQL",
+    "Kubernetes",
+    "Scrum",
+    "Excel",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Paula García Torres",
+    "correo": "paula.garcia.torres51@correo.com",
+    "telefono": "3055032202",
+    "documento": "1186591960",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "UPB",
+      "anio": 2016,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "React",
+    "Linux",
+    "Kubernetes"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

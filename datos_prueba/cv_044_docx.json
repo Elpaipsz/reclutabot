@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Rodríguez Rojas",
+    "correo": "daniela.rodriguez.rojas44@correo.com",
+    "telefono": "3062322971",
+    "documento": "1160932363",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad del Valle",
+      "anio": 2014,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2019-03",
+      "fecha_fin": "2020-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "TCS",
+      "fecha_inicio": "2021-09",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Linux",
+    "Git",
+    "PostgreSQL",
+    "Kubernetes",
+    "SQL",
+    "Scrum",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

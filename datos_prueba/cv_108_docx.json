@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "María Vargas Ramírez",
+    "correo": "maria.vargas.ramirez108@correo.com",
+    "telefono": "3053549718",
+    "documento": "1119473238",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2016,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Django",
+    "React",
+    "FastAPI",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

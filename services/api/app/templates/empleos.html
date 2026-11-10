@@ -1,0 +1,37 @@
+{% extends "base.html" %}{% block title %}Cargos abiertos en {{ empresa }}{% endblock %}
+{% block body %}
+<div class="pagehead">
+  <h1>{{ vacantes|length }} cargo{{ '' if vacantes|length==1 else 's' }} abierto{{ '' if vacantes|length==1 else 's' }}{% if not (q or modalidad or area) %} en {{ empresa }}{% endif %}</h1>
+  <p class="lead">Elige un cargo, adjunta tu hoja de vida y recibes un número de postulación al instante. Cada hoja de vida la revisa una persona del equipo de selección.</p>
+</div>
+
+<form method="get" class="buscador">
+  <input name="q" value="{{ q }}" placeholder="Cargo o área" aria-label="Buscar por cargo o área">
+  <select name="modalidad" aria-label="Modalidad"><option value="">Cualquier modalidad</option>{% for m in modalidades %}<option {{ 'selected' if m==modalidad }}>{{ m }}</option>{% endfor %}</select>
+  <select name="area" aria-label="Área"><option value="">Cualquier área</option>{% for a in areas %}<option {{ 'selected' if a==area }}>{{ a }}</option>{% endfor %}</select>
+  <button class="btn">Buscar</button>
+</form>
+
+{% if vacantes %}
+<div class="jobs-head"><span>Cargo</span><span>Área</span><span>Modalidad</span><span>Ubicación</span><span></span></div>
+{% for v in vacantes %}
+<a class="job" href="/empleos/{{ v.codigo }}">
+  <div>
+    <div class="job-title">{{ v.titulo }}<small>{{ v.codigo }}</small></div>
+    <p>{{ (v.descripcion or '')[:150] }}{{ '…' if (v.descripcion or '')|length > 150 }}{% if v.contrato %} Contrato {{ v.contrato|lower }}.{% endif %}</p>
+  </div>
+  <span class="meta">{{ v.area or '' }}</span>
+  <span class="meta">{{ v.modalidad or '' }}</span>
+  <span class="meta">{{ v.ubicacion or '' }}</span>
+  <span class="go">Postularme</span>
+</a>
+{% endfor %}
+{% else %}
+<p class="vacio">Ningún cargo coincide con esa búsqueda. <a href="/">Ver todos los cargos</a>.</p>
+{% endif %}
+
+<div class="card info" style="margin-top:34px">
+  <p style="margin:0 0 6px"><b>Si prefieres el correo.</b> Escribe a postulaciones@empresa.test con el código del cargo en el asunto (por ejemplo «Postulación VAC-001») y adjunta tu hoja de vida.</p>
+  <p style="margin:0">Cuando ya te hayas postulado, <a href="/estado">consulta el estado con tu número</a>.</p>
+</div>
+{% endblock %}

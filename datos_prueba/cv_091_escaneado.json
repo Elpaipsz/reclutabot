@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Torres Hernández",
+    "correo": "santiago.torres.hernandez91@correo.com",
+    "telefono": "3222757628",
+    "documento": "1198311153",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2018-04",
+      "fecha_fin": "2021-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Git",
+    "Scrum",
+    "FastAPI",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Álvarez Torres",
+    "correo": "mateo.alvarez.torres134@correo.com",
+    "telefono": "3297522190",
+    "documento": "1011612290",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "SENA",
+      "anio": 2013,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Endava",
+      "fecha_inicio": "2021-04",
+      "fecha_fin": "2024-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "TCS",
+      "fecha_inicio": "2025-11",
+      "fecha_fin": "2026-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "FastAPI",
+    "Git",
+    "Django",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

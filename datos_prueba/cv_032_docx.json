@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Álvarez Ramírez",
+    "correo": "daniela.alvarez.ramirez32@correo.com",
+    "telefono": "3038581541",
+    "documento": "1006342784",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2015,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2016-05",
+      "fecha_fin": "2017-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2018-10",
+      "fecha_fin": "2020-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Globant",
+      "fecha_inicio": "2021-11",
+      "fecha_fin": "2023-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "Power BI",
+    "Python",
+    "Django",
+    "Git",
+    "JavaScript"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Ortiz Ramírez",
+    "correo": "daniel.ortiz.ramirez186@correo.com",
+    "telefono": "3054038471",
+    "documento": "1002579776",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2017-12",
+      "fecha_fin": "2018-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-06",
+      "fecha_fin": "2021-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2022-12",
+      "fecha_fin": "2023-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "JavaScript",
+    "Kubernetes",
+    "Excel",
+    "SQL"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

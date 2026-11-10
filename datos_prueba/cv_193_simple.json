@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Ramírez García",
+    "correo": "paula.ramirez.garcia193@correo.com",
+    "telefono": "3251564407",
+    "documento": "1106439530",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2016,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Endava",
+      "fecha_inicio": "2017-01",
+      "fecha_fin": "2018-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Python",
+    "Excel",
+    "Kubernetes",
+    "Docker",
+    "FastAPI",
+    "PostgreSQL",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

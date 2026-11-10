@@ -1,0 +1,81 @@
+{% extends "base.html" %}{% block title %}{{ t.name }}{% endblock %}
+{% macro cls(k) %}{{ 'low' if ext and (ext.confianza or {}).get(k, 1) < umbral else 'ok-block' }}{% endmacro %}
+{% macro campo(k) %}{{ 'low' if ext and (ext.confianza or {}).get(k, 1) < umbral and datos.datos_personales.get(k) else '' }}{% endmacro %}
+{% macro aviso(k) %}{% if ext and (ext.confianza or {}).get(k, 1) < umbral %}<small>⚠ Confianza de la IA: {{ (ext.confianza[k]*100)|round|int }}% — revisa contra el original</small>{% endif %}{% endmacro %}
+{% block body %}
+{% set clave = t.taskDefinitionKey %}
+<h1>{{ t.name }}</h1>
+<p class="sub"><a href="/app/postulaciones/{{ p.id }}">{{ p.numero }}</a> · {{ p.nombre }} · {{ p.titulo }} · puntaje {{ p.puntaje if p.puntaje is not none else '—' }} {% if p.clasificacion %}<span class="badge b-{{ p.clasificacion }}">{{ p.clasificacion }}</span>{% endif %}</p>
+{% if error %}<div class="alert err">{{ error }}</div>{% endif %}
+
+<form method="post" action="/app/tareas/{{ t.id }}">
+{% if clave == 'u_validar' %}
+<div class="split">
+  <div><iframe class="pdf" src="/app/postulaciones/{{ p.id }}/archivo"></iframe>
+    <p class="small mut">Si el archivo es DOCX, <a href="/app/postulaciones/{{ p.id }}/archivo">descárgalo aquí</a>.</p></div>
+  <div>
+    {% if datos and datos.get("relleno_palabras_clave") %}<div class="card" style="border-left:4px solid #e0a800"><b>Posible relleno de palabras clave</b><p class="small">La IA detectó una lista muy larga de habilidades sin experiencia que las respalde. Revisa con criterio humano.</p></div>{% endif %}
+    {% if ext and ext.resumen %}<div class="card"><b>Resumen de la IA</b><p class="small">{{ ext.resumen }}</p></div>{% endif %}
+    <div class="card"><h2>Datos extraídos (editables)</h2>
+      <div class="{{ cls('datos_personales') }}">{{ aviso('datos_personales') }}
+        <div class="grid g2">
+          <div class="{{ campo('nombre') }}"><label>Nombre</label><input name="p_nombre" value="{{ datos.datos_personales.nombre or '' }}"></div>
+          <div class="{{ campo('correo') }}"><label>Correo</label><input name="p_correo" value="{{ datos.datos_personales.correo or '' }}"></div>
+          <div class="{{ campo('telefono') }}"><label>Teléfono</label><input name="p_telefono" value="{{ datos.datos_personales.telefono or '' }}"></div>
+          <div class="{{ campo('documento') }}"><label>Documento</label><input name="p_documento" value="{{ datos.datos_personales.documento or '' }}"></div>
+          <div class="{{ campo('ubicacion') }}"><label>Ubicación</label><input name="p_ubicacion" value="{{ datos.datos_personales.ubicacion or '' }}"></div>
+        </div></div>
+      <div class="{{ cls('formacion') }}">{{ aviso('formacion') }}<label>Formación (título · institución · año · nivel)</label>
+        {% for f in datos.formacion + [{}] %}<div class="row r4"><input name="f_titulo" value="{{ f.titulo or '' }}"><input name="f_institucion" value="{{ f.institucion or '' }}">
+          <input name="f_anio" value="{{ f.anio or '' }}"><select name="f_nivel">{% for n in ['Bachiller','Técnico','Tecnólogo','Profesional','Especialización','Maestría','Doctorado','Otro'] %}<option {{ 'selected' if f.nivel==n }}>{{ n }}</option>{% endfor %}</select></div>{% endfor %}</div>
+      <div class="{{ cls('experiencia') }}">{{ aviso('experiencia') }}<label>Experiencia (cargo · empresa · inicio · fin · funciones) — fechas AAAA-MM o «actual»</label>
+        {% for e in datos.experiencia + [{}] %}<div class="row r5"><input name="e_cargo" value="{{ e.cargo or '' }}"><input name="e_empresa" value="{{ e.empresa or '' }}">
+          <input name="e_fecha_inicio" value="{{ e.fecha_inicio or '' }}"><input name="e_fecha_fin" value="{{ e.fecha_fin or '' }}"><input name="e_funciones" value="{{ e.funciones or '' }}"></div>{% endfor %}</div>
+      <div class="{{ cls('habilidades') }}">{{ aviso('habilidades') }}<label>Habilidades (separadas por coma)</label><textarea name="habilidades">{{ datos.habilidades|join(', ') }}</textarea></div>
+      <div class="{{ cls('idiomas') }}">{{ aviso('idiomas') }}<label>Idiomas (uno por línea: «Inglés B2»)</label><textarea name="idiomas">{% for i in datos.idiomas %}{{ i.idioma }} {{ i.nivel or '' }}
+{% endfor %}</textarea></div>
+      <label>Certificaciones (coma)</label><input name="certificaciones" value="{{ datos.certificaciones|join(', ') }}">
+    </div>
+    <div class="card"><h2>Decisión</h2>
+      <label><input type="radio" name="decision" value="aprobar"> Aprobar — el candidato continúa al registro automático</label>
+      <label><input type="radio" name="decision" value="rechazar"> Rechazar — no cumple (observación obligatoria)</label>
+      <label><input type="radio" name="decision" value="pedir_info"> Pedir información adicional al candidato</label>
+      <label>Observación</label><textarea name="observacion"></textarea>
+      <p><button class="btn">Guardar y continuar</button></p></div>
+  </div>
+</div>
+
+{% elif clave == 'u_incidencia' %}
+<div class="card"><h2>La extracción automática falló</h2>
+  {% for i in incidencias %}<div class="alert err"><b>{{ i.origen }}</b> · {{ i.creada_en|fecha }}<br>{{ i.detalle }}</div>{% endfor %}
+  <p><a class="btn sec" href="/app/postulaciones/{{ p.id }}/archivo" target="_blank">Ver hoja de vida</a></p>
+  <label><input type="radio" name="decision" value="reintentar"> Reintentar la extracción con IA</label>
+  <label><input type="radio" name="decision" value="cerrar"> Cerrar la postulación (documento inutilizable)</label>
+  <label>Observación</label><textarea name="observacion"></textarea><p><button class="btn">Continuar</button></p></div>
+
+{% elif clave == 'u_registro_manual' %}
+<div class="card"><h2>El robot no pudo registrar al candidato</h2>
+  {% for i in incidencias %}<div class="alert err"><b>{{ i.origen }}</b> · {{ i.creada_en|fecha }}<br>{{ i.detalle }}
+    {% if i.captura_path %}<br><a href="/app/capturas/{{ i.captura_path }}" target="_blank"><img src="/app/capturas/{{ i.captura_path }}" style="max-width:420px;margin-top:8px;border:1px solid #ddd"></a>{% endif %}</div>{% endfor %}
+  <p>Datos a registrar: <b>{{ datos.datos_personales.nombre }}</b> · {{ datos.datos_personales.documento }} · {{ p.correo }}</p>
+  <label><input type="radio" name="decision" value="reintentar"> Reintentar el registro automático</label>
+  <label><input type="radio" name="decision" value="registrado"> Ya lo registré manualmente en RR.HH.</label>
+  <label>ID asignado en RR.HH. (si lo registraste a mano)</label><input name="rrhh_id" placeholder="RH-000123">
+  <label><input type="radio" name="decision" value="cerrar"> Cerrar la postulación</label>
+  <label>Observación</label><textarea name="observacion"></textarea><p><button class="btn">Continuar</button></p></div>
+
+{% elif clave == 'u_entrevista' %}
+<div class="split">
+  <div class="card"><h2>Perfil validado</h2>{% if ext %}<p>{{ ext.resumen }}</p>{% endif %}
+    <p class="small"><b>Experiencia:</b> {{ ext.anios_experiencia if ext }} años<br><b>Habilidades:</b> {{ datos.habilidades|join(', ') }}<br>
+    <b>Formación:</b> {% for f in datos.formacion %}{{ f.titulo }} ({{ f.nivel }}){{ ', ' if not loop.last }}{% endfor %}<br>
+    <b>Registrado en RR.HH. con ID:</b> {{ p.rrhh_id }}</p>
+    <a class="btn sec" href="/app/postulaciones/{{ p.id }}">Ver trazabilidad completa</a></div>
+  <div class="card"><h2>¿Continúa a entrevista?</h2>
+    <label><input type="radio" name="decision" value="continuar"> Sí, continúa a entrevistas</label>
+    <label><input type="radio" name="decision" value="descartar"> No continúa (observación obligatoria)</label>
+    <label>Observación</label><textarea name="observacion"></textarea><p><button class="btn">Registrar decisión</button></p></div>
+</div>
+{% endif %}
+</form>
+{% endblock %}

@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Ortiz Ortiz",
+    "correo": "valentina.ortiz.ortiz125@correo.com",
+    "telefono": "3174097151",
+    "documento": "1008491500",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2021-10",
+      "fecha_fin": "2024-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "React",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "Power BI",
+    "Scrum",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

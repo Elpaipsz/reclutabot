@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Hernández Rojas",
+    "correo": "valentina.hernandez.rojas196@correo.com",
+    "telefono": "3199969618",
+    "documento": "1036249868",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "Docker",
+    "Kubernetes",
+    "React",
+    "AWS",
+    "Git",
+    "Scrum",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

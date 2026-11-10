@@ -1,0 +1,37 @@
+{
+  "datos_personales": {
+    "nombre": "Laura García Castro",
+    "correo": "laura.garcia.castro171@correo.com",
+    "telefono": "3013987889",
+    "documento": "1149221848",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2024,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "Power BI",
+    "Python",
+    "Linux",
+    "React",
+    "AWS",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

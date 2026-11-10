@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Moreno Hernández",
+    "correo": "daniela.moreno.hernandez68@correo.com",
+    "telefono": "3149310067",
+    "documento": "1095342507",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-09",
+      "fecha_fin": "2020-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2021-07",
+      "fecha_fin": "2023-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Scrum",
+    "Kubernetes",
+    "Docker",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

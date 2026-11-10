@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Ortiz García",
+    "correo": "felipe.ortiz.garcia110@correo.com",
+    "telefono": "3251654350",
+    "documento": "1199265856",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "Linux",
+    "Scrum",
+    "Kubernetes",
+    "Excel",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

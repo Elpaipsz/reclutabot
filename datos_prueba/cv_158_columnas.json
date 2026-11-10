@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Rojas Ortiz",
+    "correo": "felipe.rojas.ortiz158@correo.com",
+    "telefono": "3173425424",
+    "documento": "1071631637",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad Nacional",
+      "anio": 2014,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2017-04",
+      "fecha_fin": "2019-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2020-02",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "React",
+    "Scrum",
+    "Git",
+    "Linux",
+    "Django",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

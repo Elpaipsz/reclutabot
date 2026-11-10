@@ -1,0 +1,58 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Hernández Díaz",
+    "correo": "daniel.hernandez.diaz152@correo.com",
+    "telefono": "3141150169",
+    "documento": "1064452973",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2016,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2013-10",
+      "fecha_fin": "2016-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Nubank",
+      "fecha_inicio": "2017-09",
+      "fecha_fin": "2020-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Rappi",
+      "fecha_inicio": "2021-11",
+      "fecha_fin": "2024-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Java",
+    "Kubernetes",
+    "AWS",
+    "Linux",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

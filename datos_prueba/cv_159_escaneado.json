@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Díaz Rojas",
+    "correo": "valentina.diaz.rojas159@correo.com",
+    "telefono": "3145637727",
+    "documento": "1065330730",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "2024-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2025-09",
+      "fecha_fin": "2026-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "Kubernetes",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Vargas Torres",
+    "correo": "felipe.vargas.torres21@correo.com",
+    "telefono": "3228697550",
+    "documento": "1140595024",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Sofka",
+      "fecha_inicio": "2015-12",
+      "fecha_fin": "2017-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2018-10",
+      "fecha_fin": "2021-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Accenture",
+      "fecha_inicio": "2022-09",
+      "fecha_fin": "2025-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "FastAPI",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

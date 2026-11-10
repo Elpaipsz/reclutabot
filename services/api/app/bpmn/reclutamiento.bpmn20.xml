@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowable="http://flowable.org/bpmn" targetNamespace="http://reclutamiento/to-be">
+  <process id="reclutamiento" name="Reclutamiento automatizado (TO-BE)" isExecutable="true">
+    <startEvent id="inicio" name="Postulación recibida"/>
+    <serviceTask id="t_extraer" name="Extraer datos con IA" flowable:type="external-worker" flowable:topic="extraer-cv"/>
+    <serviceTask id="t_evaluar" name="Evaluar requisitos" flowable:type="external-worker" flowable:topic="evaluar-requisitos"/>
+    <serviceTask id="t_registrar" name="Registrar candidato (RPA)" flowable:type="external-worker" flowable:topic="registrar-rpa"/>
+    <serviceTask id="t_est_validacion" name="Estado: En validación" flowable:type="external-worker" flowable:topic="estado-validacion"/>
+    <serviceTask id="t_est_aprobada" name="Estado: Aprobada" flowable:type="external-worker" flowable:topic="estado-aprobada"/>
+    <serviceTask id="t_est_rechazada" name="Estado: Rechazada" flowable:type="external-worker" flowable:topic="estado-rechazada"/>
+    <serviceTask id="t_est_registrada" name="Estado: Registrada" flowable:type="external-worker" flowable:topic="estado-registrada"/>
+    <serviceTask id="t_est_entrevista" name="Estado: En entrevista" flowable:type="external-worker" flowable:topic="estado-entrevista"/>
+    <serviceTask id="t_est_descartada" name="Estado: Descartada" flowable:type="external-worker" flowable:topic="estado-descartada"/>
+    <serviceTask id="t_est_descartada_inc" name="Estado: Descartada (incidencia cerrada)" flowable:type="external-worker" flowable:topic="estado-descartada"/>
+    <serviceTask id="t_est_error_ia" name="Estado: Error (IA)" flowable:type="external-worker" flowable:topic="estado-error"/>
+    <serviceTask id="t_est_error_rpa" name="Estado: Error (RPA)" flowable:type="external-worker" flowable:topic="estado-error"/>
+    <serviceTask id="t_escalar" name="Escalar validación al coordinador" flowable:type="external-worker" flowable:topic="escalar-validacion"/>
+    <serviceTask id="t_notif_info" name="Pedir información al candidato" flowable:type="external-worker" flowable:topic="notificar-pedir-info"/>
+    <serviceTask id="t_notif_nocontinua" name="Notificar: no continúa" flowable:type="external-worker" flowable:topic="notificar-no-continua"/>
+    <serviceTask id="t_notif_entrevista" name="Notificar: avanza a entrevista" flowable:type="external-worker" flowable:topic="notificar-entrevista"/>
+    <userTask id="u_incidencia" name="Atender incidencia de extracción" flowable:candidateGroups="auxiliar"/>
+    <userTask id="u_validar" name="Validar hoja de vida" flowable:candidateGroups="analista"/>
+    <userTask id="u_registro_manual" name="Registrar candidato manualmente" flowable:candidateGroups="auxiliar"/>
+    <userTask id="u_entrevista" name="Decidir continuidad a entrevista" flowable:candidateGroups="coordinador"/>
+    <exclusiveGateway id="g_ext" default="f_ext_ok"/>
+    <exclusiveGateway id="g_inc" default="f_inc_cerrar"/>
+    <exclusiveGateway id="g_auto" default="f_auto_no"/>
+    <exclusiveGateway id="g_val" default="f_val_info"/>
+    <exclusiveGateway id="g_rpa" default="f_rpa_error"/>
+    <exclusiveGateway id="g_man" default="f_man_cerrar"/>
+    <exclusiveGateway id="g_ent" default="f_ent_no"/>
+    <boundaryEvent id="b_escalar" name="Sin atender a tiempo" attachedToRef="u_validar" cancelActivity="false"><timerEventDefinition><timeDuration>${escalaTras}</timeDuration></timerEventDefinition></boundaryEvent>
+    <endEvent id="fin_escalada" name="Tarea escalada"/>
+    <endEvent id="fin_incidencia" name="Cerrada por incidencia"/>
+    <endEvent id="fin_entrevista" name="Pasa a entrevistas"/>
+    <endEvent id="fin_no_continua" name="No continúa"/>
+    <sequenceFlow id="f0" sourceRef="inicio" targetRef="t_extraer"/>
+    <sequenceFlow id="f1" sourceRef="t_extraer" targetRef="g_ext"/>
+    <sequenceFlow id="f_ext_err" sourceRef="g_ext" targetRef="t_est_error_ia"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${extraccionOk == false}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_ext_ok" sourceRef="g_ext" targetRef="t_evaluar"/>
+    <sequenceFlow id="f2" sourceRef="t_est_error_ia" targetRef="u_incidencia"/>
+    <sequenceFlow id="f3" sourceRef="u_incidencia" targetRef="g_inc"/>
+    <sequenceFlow id="f_inc_reint" sourceRef="g_inc" targetRef="t_extraer"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'reintentar'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_inc_cerrar" sourceRef="g_inc" targetRef="t_est_descartada_inc"/>
+    <sequenceFlow id="f4" sourceRef="t_est_descartada_inc" targetRef="fin_incidencia"/>
+    <sequenceFlow id="f_esc1" sourceRef="b_escalar" targetRef="t_escalar"/>
+    <sequenceFlow id="f_esc2" sourceRef="t_escalar" targetRef="fin_escalada"/>
+    <sequenceFlow id="f5" sourceRef="t_evaluar" targetRef="g_auto"/>
+    <sequenceFlow id="f_auto_si" sourceRef="g_auto" targetRef="t_est_aprobada"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${clasificacion == 'Cumple' && bajaConfianza == false}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_auto_no" sourceRef="g_auto" targetRef="t_est_validacion"/>
+    <sequenceFlow id="f6" sourceRef="t_est_validacion" targetRef="u_validar"/>
+    <sequenceFlow id="f7" sourceRef="u_validar" targetRef="g_val"/>
+    <sequenceFlow id="f_val_ok" sourceRef="g_val" targetRef="t_est_aprobada"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'aprobar'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_val_no" sourceRef="g_val" targetRef="t_est_rechazada"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'rechazar'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_val_info" sourceRef="g_val" targetRef="t_notif_info"/>
+    <sequenceFlow id="f8" sourceRef="t_notif_info" targetRef="u_validar"/>
+    <sequenceFlow id="f9" sourceRef="t_est_rechazada" targetRef="t_notif_nocontinua"/>
+    <sequenceFlow id="f10" sourceRef="t_est_aprobada" targetRef="t_registrar"/>
+    <sequenceFlow id="f11" sourceRef="t_registrar" targetRef="g_rpa"/>
+    <sequenceFlow id="f_rpa_ok" sourceRef="g_rpa" targetRef="t_est_registrada"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${rpaOk == true}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_rpa_error" sourceRef="g_rpa" targetRef="t_est_error_rpa"/>
+    <sequenceFlow id="f12" sourceRef="t_est_error_rpa" targetRef="u_registro_manual"/>
+    <sequenceFlow id="f13" sourceRef="u_registro_manual" targetRef="g_man"/>
+    <sequenceFlow id="f_man_ok" sourceRef="g_man" targetRef="t_est_registrada"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'registrado'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_man_reint" sourceRef="g_man" targetRef="t_registrar"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'reintentar'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_man_cerrar" sourceRef="g_man" targetRef="t_est_descartada_inc"/>
+    <sequenceFlow id="f14" sourceRef="t_est_registrada" targetRef="u_entrevista"/>
+    <sequenceFlow id="f15" sourceRef="u_entrevista" targetRef="g_ent"/>
+    <sequenceFlow id="f_ent_si" sourceRef="g_ent" targetRef="t_est_entrevista"><conditionExpression xsi:type="tFormalExpression"><![CDATA[${decision == 'continuar'}]]></conditionExpression></sequenceFlow>
+    <sequenceFlow id="f_ent_no" sourceRef="g_ent" targetRef="t_est_descartada"/>
+    <sequenceFlow id="f16" sourceRef="t_est_entrevista" targetRef="t_notif_entrevista"/>
+    <sequenceFlow id="f17" sourceRef="t_notif_entrevista" targetRef="fin_entrevista"/>
+    <sequenceFlow id="f18" sourceRef="t_est_descartada" targetRef="t_notif_nocontinua"/>
+    <sequenceFlow id="f19" sourceRef="t_notif_nocontinua" targetRef="fin_no_continua"/>
+  </process>
+</definitions>

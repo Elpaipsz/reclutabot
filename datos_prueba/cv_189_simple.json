@@ -1,0 +1,30 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Gómez Moreno",
+    "correo": "daniela.gomez.moreno189@correo.com",
+    "telefono": "3033248854",
+    "documento": "1023026498",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "SQL",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

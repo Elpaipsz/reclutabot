@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián García Ortiz",
+    "correo": "sebastian.garcia.ortiz101@correo.com",
+    "telefono": "3269102343",
+    "documento": "1157722942",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2019-10",
+      "fecha_fin": "2022-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2023-04",
+      "fecha_fin": "2026-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "AWS",
+    "React",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "María Vargas Álvarez",
+    "correo": "maria.vargas.alvarez128@correo.com",
+    "telefono": "3087742160",
+    "documento": "1013992972",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2021,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Rappi",
+      "fecha_inicio": "2015-03",
+      "fecha_fin": "2017-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-01",
+      "fecha_fin": "2020-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Nubank",
+      "fecha_inicio": "2021-06",
+      "fecha_fin": "2022-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "Excel",
+    "Java",
+    "JavaScript",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

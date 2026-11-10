@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés Rodríguez Vargas",
+    "correo": "andres.rodriguez.vargas48@correo.com",
+    "telefono": "3116412435",
+    "documento": "1035439733",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad Nacional",
+      "anio": 2016,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2017-01",
+      "fecha_fin": "2020-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2022-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "Python",
+    "Java",
+    "Scrum",
+    "AWS",
+    "Docker",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Camila Gómez Álvarez",
+    "correo": "camila.gomez.alvarez45@correo.com",
+    "telefono": "3122309529",
+    "documento": "1118639648",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Globant",
+      "fecha_inicio": "2020-07",
+      "fecha_fin": "2022-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "Python",
+    "Linux",
+    "Django",
+    "Kubernetes",
+    "Docker",
+    "React",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Torres Rodríguez",
+    "correo": "daniela.torres.rodriguez123@correo.com",
+    "telefono": "3087239871",
+    "documento": "1091579533",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad Nacional",
+      "anio": 2021,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Git",
+    "PostgreSQL",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

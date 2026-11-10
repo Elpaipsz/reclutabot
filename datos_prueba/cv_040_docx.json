@@ -1,0 +1,36 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ortiz Castro",
+    "correo": "juan.ortiz.castro40@correo.com",
+    "telefono": "3297462018",
+    "documento": "1054610989",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2015,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Power BI",
+    "Django",
+    "AWS",
+    "PostgreSQL",
+    "FastAPI",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

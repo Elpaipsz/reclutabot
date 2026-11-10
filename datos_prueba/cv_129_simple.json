@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Camila López Hernández",
+    "correo": "camila.lopez.hernandez129@correo.com",
+    "telefono": "3299301908",
+    "documento": "1192295518",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "EAFIT",
+      "anio": 2012,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Rappi",
+      "fecha_inicio": "2015-09",
+      "fecha_fin": "2016-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Rappi",
+      "fecha_inicio": "2017-08",
+      "fecha_fin": "2018-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "SQL",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

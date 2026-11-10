@@ -1,0 +1,27 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Ortiz Álvarez",
+    "correo": "isabella.ortiz.alvarez4@correo.com",
+    "telefono": "3173632401",
+    "documento": "1187110804",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Linux",
+    "Kubernetes"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

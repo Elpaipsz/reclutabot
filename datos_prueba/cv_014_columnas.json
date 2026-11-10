@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Jiménez Castro",
+    "correo": "valentina.jimenez.castro14@correo.com",
+    "telefono": "3243239798",
+    "documento": "1187694871",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Pragma",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2024-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Scrum",
+    "JavaScript",
+    "Django",
+    "Kubernetes",
+    "FastAPI",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

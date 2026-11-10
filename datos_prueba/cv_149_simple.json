@@ -1,0 +1,40 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Rojas López",
+    "correo": "nicolas.rojas.lopez149@correo.com",
+    "telefono": "3042984041",
+    "documento": "1019610079",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Pragma",
+      "fecha_inicio": "2014-04",
+      "fecha_fin": "2015-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "FastAPI",
+    "SQL",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

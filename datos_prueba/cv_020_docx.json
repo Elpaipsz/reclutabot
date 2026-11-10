@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Jiménez García",
+    "correo": "juan.jimenez.garcia20@correo.com",
+    "telefono": "3121259600",
+    "documento": "1127411179",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2019,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2013-06",
+      "fecha_fin": "2015-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Globant",
+      "fecha_inicio": "2016-05",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "SQL",
+    "React",
+    "Excel",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

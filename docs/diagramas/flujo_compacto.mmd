@@ -1,0 +1,14 @@
+flowchart LR
+  A(["Postulación<br/>formulario o correo"]):::cand --> B["Recibir y<br/>almacenar"]:::sis --> C{"¿Documento<br/>válido?"}:::sis
+  C -- no --> X1(("Documento<br/>inválido")):::fin
+  C -- sí --> D["IA: extraer datos<br/>de la hoja de vida"]:::sis --> E["Reglas: puntaje<br/>y clasificación"]:::sis --> F["Analista: validar<br/>datos y requisitos"]:::ana --> G{"¿Cumple<br/>requisitos?"}:::ana
+  G -- no --> X2(("No cumple<br/>requisitos")):::fin
+  G -- sí --> H["RPA: registrar<br/>candidato"]:::sis --> I["BPMS: actualizar<br/>expediente"]:::sis --> J["Coordinador: decidir<br/>continuidad"]:::coo --> K{"¿Continúa?"}:::coo
+  K -- sí --> Z(("Pasa a<br/>entrevistas")):::fin
+  K -- no --> X3(("Postulación<br/>cerrada")):::fin
+
+  classDef cand fill:#fde8f7,stroke:#a0359b,color:#172033
+  classDef sis fill:#e6f4ff,stroke:#2b6cb0,color:#172033
+  classDef ana fill:#e4f7ec,stroke:#228b57,color:#172033
+  classDef coo fill:#efe7ff,stroke:#6b46c1,color:#172033
+  classDef fin fill:#f1f1f1,stroke:#555,color:#172033

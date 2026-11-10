@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Torres López",
+    "correo": "juan.torres.lopez105@correo.com",
+    "telefono": "3056846895",
+    "documento": "1113810115",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2017,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Accenture",
+      "fecha_inicio": "2016-02",
+      "fecha_fin": "2019-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2020-12",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "React",
+    "Python",
+    "Linux",
+    "Power BI",
+    "SQL",
+    "Git",
+    "Kubernetes"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

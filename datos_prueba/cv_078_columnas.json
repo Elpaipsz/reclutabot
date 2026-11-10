@@ -1,0 +1,31 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ortiz Jiménez",
+    "correo": "juan.ortiz.jimenez78@correo.com",
+    "telefono": "3222073841",
+    "documento": "1069039909",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "Java",
+    "Linux",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

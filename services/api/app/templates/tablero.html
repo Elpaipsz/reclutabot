@@ -1,0 +1,24 @@
+{% extends "base.html" %}{% block title %}Tablero{% endblock %}
+{% block body %}
+<h1>Tablero de reclutamiento</h1>
+<form method="get" class="sub">
+  Vacante: <select name="vacante" onchange="this.form.submit()" style="width:auto;display:inline-block">
+    <option value="">Todas</option>{% for v in vacantes %}<option value="{{ v.id }}" {{ 'selected' if vacante==v.id }}>{{ v.codigo }} — {{ v.titulo }}</option>{% endfor %}
+  </select>
+</form>
+<div class="grid g4">
+  <div class="card kpi"><b>{{ total }}</b><span>Postulaciones</span></div>
+  <div class="card kpi"><b>{{ '%.1f'|format(ciclo) if ciclo is not none else '—' }}</b><span>Minutos promedio de ciclo</span></div>
+  <div class="card kpi"><b>{{ '%.0f'|format(intervencion) }}%</b><span>Tasa de intervención humana</span></div>
+  <div class="card kpi"><b>{{ pendientes }}</b><span>Mis tareas pendientes</span></div>
+</div>
+<div class="grid g2">
+  <div class="card"><h2>Postulaciones por estado</h2>
+    <table>{% for e in estados %}{% if por_estado.get(e) %}<tr><td><a href="/app/postulaciones?estado={{ e }}{% if vacante %}&vacante={{ vacante }}{% endif %}"><span class="badge b-{{ e }}">{{ e }}</span></a></td>
+      <td style="width:55%"><div class="bar"><i style="width:{{ 100*por_estado[e]/total }}%"></i></div></td><td class="right"><b>{{ por_estado[e] }}</b></td></tr>{% endif %}{% else %}<tr><td class="mut">Sin datos</td></tr>{% endfor %}</table>
+  </div>
+  <div class="card"><h2>Costo de IA</h2><p style="font-size:28px;margin:6px 0"><b>${{ '%.4f'|format(costo) }}</b> <span class="mut small">USD acumulados</span></p>
+    <p class="mut small">Costo estimado por hoja de vida: ${{ '%.4f'|format(costo/total) if total else '0.0000' }}</p>
+    <p><a class="btn sec" href="/app/postulaciones.csv{% if vacante %}?vacante={{ vacante }}{% endif %}">Exportar CSV</a></p></div>
+</div>
+{% endblock %}

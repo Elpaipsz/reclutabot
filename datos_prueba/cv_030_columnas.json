@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Gómez Hernández",
+    "correo": "juan.gomez.hernandez30@correo.com",
+    "telefono": "3023347253",
+    "documento": "1018884946",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2012,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2017-05",
+      "fecha_fin": "2020-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Kubernetes",
+    "PostgreSQL",
+    "SQL",
+    "AWS",
+    "Python",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

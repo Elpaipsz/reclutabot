@@ -1,0 +1,47 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Torres Jiménez",
+    "correo": "santiago.torres.jimenez197@correo.com",
+    "telefono": "3027399367",
+    "documento": "1051984731",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2013,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2014-12",
+      "fecha_fin": "2017-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2018-10",
+      "fecha_fin": "2019-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Excel",
+    "SQL",
+    "Python",
+    "PostgreSQL",
+    "React",
+    "JavaScript"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

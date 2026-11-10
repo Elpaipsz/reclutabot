@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Rojas Ortiz",
+    "correo": "laura.rojas.ortiz19@correo.com",
+    "telefono": "3244305229",
+    "documento": "1115626079",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2014,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Excel",
+    "Scrum",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

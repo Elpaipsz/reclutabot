@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Defs_TOBE" targetNamespace="https://example.org/reclutamiento/tobe">
+  <process id="Proceso_Reclutamiento_TOBE" name="Reclutamiento de personal - TO-BE" isExecutable="false">
+    <laneSet id="LaneSet_TOBE">
+      <lane id="Lane_Auto" name="Sistema automatizado (BPMS / IA / RPA)">
+        <flowNodeRef>Start</flowNodeRef>
+        <flowNodeRef>Receive</flowNodeRef>
+        <flowNodeRef>GW_Doc</flowNodeRef>
+        <flowNodeRef>End_Invalid</flowNodeRef>
+        <flowNodeRef>AI</flowNodeRef>
+        <flowNodeRef>RPA</flowNodeRef>
+        <flowNodeRef>Update</flowNodeRef>
+      </lane>
+      <lane id="Lane_Analyst" name="Analista de selección">
+        <flowNodeRef>HumanCheck</flowNodeRef>
+        <flowNodeRef>GW_Req</flowNodeRef>
+        <flowNodeRef>End_NoReq</flowNodeRef>
+      </lane>
+      <lane id="Lane_Coord" name="Coordinador de selección">
+        <flowNodeRef>Review</flowNodeRef>
+        <flowNodeRef>Select</flowNodeRef>
+        <flowNodeRef>GW_Advance</flowNodeRef>
+        <flowNodeRef>End_Yes</flowNodeRef>
+        <flowNodeRef>End_No</flowNodeRef>
+      </lane>
+    </laneSet>
+    <startEvent id="Start" name="Postulación recibida">
+      <outgoing>F1</outgoing>
+    </startEvent>
+    <serviceTask id="Receive" name="Recibir y almacenar postulación">
+      <incoming>F1</incoming>
+      <outgoing>F2</outgoing>
+    </serviceTask>
+    <exclusiveGateway id="GW_Doc" name="¿Documento válido?">
+      <incoming>F2</incoming>
+      <outgoing>F3</outgoing>
+      <outgoing>F4</outgoing>
+    </exclusiveGateway>
+    <endEvent id="End_Invalid" name="Documento inválido">
+      <incoming>F3</incoming>
+    </endEvent>
+    <serviceTask id="AI" name="IA: extraer datos de la hoja de vida">
+      <incoming>F4</incoming>
+      <outgoing>F5</outgoing>
+    </serviceTask>
+    <userTask id="HumanCheck" name="Validar datos y requisitos">
+      <incoming>F5</incoming>
+      <outgoing>F6</outgoing>
+    </userTask>
+    <exclusiveGateway id="GW_Req" name="¿Cumple requisitos?">
+      <incoming>F6</incoming>
+      <outgoing>F7</outgoing>
+      <outgoing>F8</outgoing>
+    </exclusiveGateway>
+    <endEvent id="End_NoReq" name="No cumple requisitos">
+      <incoming>F7</incoming>
+    </endEvent>
+    <serviceTask id="RPA" name="RPA: registrar candidato">
+      <incoming>F8</incoming>
+      <outgoing>F9</outgoing>
+    </serviceTask>
+    <serviceTask id="Update" name="BPMS: actualizar expediente">
+      <incoming>F9</incoming>
+      <outgoing>F10</outgoing>
+    </serviceTask>
+    <userTask id="Review" name="Revisar perfil preseleccionado">
+      <incoming>F10</incoming>
+      <outgoing>F11</outgoing>
+    </userTask>
+    <userTask id="Select" name="Decidir continuidad del candidato">
+      <incoming>F11</incoming>
+      <outgoing>F12</outgoing>
+    </userTask>
+    <exclusiveGateway id="GW_Advance" name="¿Continúa?">
+      <incoming>F12</incoming>
+      <outgoing>F13</outgoing>
+      <outgoing>F14</outgoing>
+    </exclusiveGateway>
+    <endEvent id="End_Yes" name="Pasa a entrevistas">
+      <incoming>F13</incoming>
+    </endEvent>
+    <endEvent id="End_No" name="Postulación cerrada">
+      <incoming>F14</incoming>
+    </endEvent>
+    <sequenceFlow id="F1" sourceRef="Start" targetRef="Receive"/>
+    <sequenceFlow id="F2" sourceRef="Receive" targetRef="GW_Doc"/>
+    <sequenceFlow id="F3" sourceRef="GW_Doc" targetRef="End_Invalid" name="No"/>
+    <sequenceFlow id="F4" sourceRef="GW_Doc" targetRef="AI" name="Sí"/>
+    <sequenceFlow id="F5" sourceRef="AI" targetRef="HumanCheck"/>
+    <sequenceFlow id="F6" sourceRef="HumanCheck" targetRef="GW_Req"/>
+    <sequenceFlow id="F7" sourceRef="GW_Req" targetRef="End_NoReq" name="No"/>
+    <sequenceFlow id="F8" sourceRef="GW_Req" targetRef="RPA" name="Sí"/>
+    <sequenceFlow id="F9" sourceRef="RPA" targetRef="Update"/>
+    <sequenceFlow id="F10" sourceRef="Update" targetRef="Review"/>
+    <sequenceFlow id="F11" sourceRef="Review" targetRef="Select"/>
+    <sequenceFlow id="F12" sourceRef="Select" targetRef="GW_Advance"/>
+    <sequenceFlow id="F13" sourceRef="GW_Advance" targetRef="End_Yes" name="Sí"/>
+    <sequenceFlow id="F14" sourceRef="GW_Advance" targetRef="End_No" name="No"/>
+  </process>
+  <bpmndi:BPMNDiagram id="Diagram_TOBE">
+    <bpmndi:BPMNPlane id="Plane_TOBE" bpmnElement="Proceso_Reclutamiento_TOBE">
+      <bpmndi:BPMNShape id="Lane_Auto_di" bpmnElement="Lane_Auto" isHorizontal="true">
+        <dc:Bounds x="40" y="70" width="1850" height="185"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Analyst_di" bpmnElement="Lane_Analyst" isHorizontal="true">
+        <dc:Bounds x="40" y="255" width="1850" height="185"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Coord_di" bpmnElement="Lane_Coord" isHorizontal="true">
+        <dc:Bounds x="40" y="440" width="1850" height="185"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Start_di" bpmnElement="Start">
+        <dc:Bounds x="78" y="136" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Receive_di" bpmnElement="Receive">
+        <dc:Bounds x="150" y="122" width="132" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="GW_Doc_di" bpmnElement="GW_Doc">
+        <dc:Bounds x="320" y="129" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Invalid_di" bpmnElement="End_Invalid">
+        <dc:Bounds x="336" y="208" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="AI_di" bpmnElement="AI">
+        <dc:Bounds x="417" y="122" width="145" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="HumanCheck_di" bpmnElement="HumanCheck">
+        <dc:Bounds x="612" y="312" width="145" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="GW_Req_di" bpmnElement="GW_Req">
+        <dc:Bounds x="805" y="319" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_NoReq_di" bpmnElement="End_NoReq">
+        <dc:Bounds x="820" y="405" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="RPA_di" bpmnElement="RPA">
+        <dc:Bounds x="915" y="122" width="145" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Update_di" bpmnElement="Update">
+        <dc:Bounds x="1108" y="122" width="145" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Review_di" bpmnElement="Review">
+        <dc:Bounds x="1324" y="500" width="146" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Select_di" bpmnElement="Select">
+        <dc:Bounds x="1511" y="500" width="146" height="64"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="GW_Advance_di" bpmnElement="GW_Advance">
+        <dc:Bounds x="1700" y="507" width="50" height="50"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Yes_di" bpmnElement="End_Yes">
+        <dc:Bounds x="1800" y="476" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_No_di" bpmnElement="End_No">
+        <dc:Bounds x="1800" y="568" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="F1_di" bpmnElement="F1">
+        <di:waypoint x="114" y="154"/>
+        <di:waypoint x="150" y="154"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F2_di" bpmnElement="F2">
+        <di:waypoint x="282" y="154"/>
+        <di:waypoint x="320" y="154"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F3_di" bpmnElement="F3">
+        <di:waypoint x="345" y="179"/>
+        <di:waypoint x="345" y="208"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F4_di" bpmnElement="F4">
+        <di:waypoint x="370" y="154"/>
+        <di:waypoint x="417" y="154"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F5_di" bpmnElement="F5">
+        <di:waypoint x="562" y="154"/>
+        <di:waypoint x="583" y="154"/>
+        <di:waypoint x="583" y="344"/>
+        <di:waypoint x="612" y="344"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F6_di" bpmnElement="F6">
+        <di:waypoint x="757" y="344"/>
+        <di:waypoint x="805" y="344"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F7_di" bpmnElement="F7">
+        <di:waypoint x="830" y="369"/>
+        <di:waypoint x="830" y="405"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F8_di" bpmnElement="F8">
+        <di:waypoint x="855" y="344"/>
+        <di:waypoint x="883" y="344"/>
+        <di:waypoint x="883" y="154"/>
+        <di:waypoint x="915" y="154"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F9_di" bpmnElement="F9">
+        <di:waypoint x="1060" y="154"/>
+        <di:waypoint x="1108" y="154"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F10_di" bpmnElement="F10">
+        <di:waypoint x="1253" y="154"/>
+        <di:waypoint x="1283" y="154"/>
+        <di:waypoint x="1283" y="532"/>
+        <di:waypoint x="1324" y="532"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F11_di" bpmnElement="F11">
+        <di:waypoint x="1470" y="532"/>
+        <di:waypoint x="1511" y="532"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F12_di" bpmnElement="F12">
+        <di:waypoint x="1657" y="532"/>
+        <di:waypoint x="1700" y="532"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F13_di" bpmnElement="F13">
+        <di:waypoint x="1750" y="532"/>
+        <di:waypoint x="1777" y="532"/>
+        <di:waypoint x="1777" y="494"/>
+        <di:waypoint x="1800" y="494"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F14_di" bpmnElement="F14">
+        <di:waypoint x="1725" y="557"/>
+        <di:waypoint x="1725" y="586"/>
+        <di:waypoint x="1800" y="586"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

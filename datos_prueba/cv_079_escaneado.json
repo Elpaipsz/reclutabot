@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Torres Torres",
+    "correo": "mateo.torres.torres79@correo.com",
+    "telefono": "3213729374",
+    "documento": "1012627811",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2016,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Kubernetes",
+    "Python",
+    "FastAPI",
+    "Django",
+    "Docker",
+    "Java",
+    "SQL",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

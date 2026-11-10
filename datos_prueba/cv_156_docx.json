@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Castro Álvarez",
+    "correo": "juan.castro.alvarez156@correo.com",
+    "telefono": "3296100141",
+    "documento": "1075395872",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad Nacional",
+      "anio": 2016,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2015-10",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Git",
+    "React",
+    "Java",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

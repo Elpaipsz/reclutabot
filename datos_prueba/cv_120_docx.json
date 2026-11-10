@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Rodríguez López",
+    "correo": "laura.rodriguez.lopez120@correo.com",
+    "telefono": "3147793505",
+    "documento": "1063897787",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "UPB",
+      "anio": 2024,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Excel",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

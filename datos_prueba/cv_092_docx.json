@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Moreno Díaz",
+    "correo": "laura.moreno.diaz92@correo.com",
+    "telefono": "3277048440",
+    "documento": "1102186418",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2021,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Accenture",
+      "fecha_inicio": "2014-12",
+      "fecha_fin": "2016-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Pragma",
+      "fecha_inicio": "2017-05",
+      "fecha_fin": "2019-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Endava",
+      "fecha_inicio": "2020-10",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Excel",
+    "Django",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

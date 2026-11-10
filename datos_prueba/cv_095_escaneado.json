@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés López Vargas",
+    "correo": "andres.lopez.vargas95@correo.com",
+    "telefono": "3134482645",
+    "documento": "1016151736",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Pragma",
+      "fecha_inicio": "2019-05",
+      "fecha_fin": "2022-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Docker",
+    "AWS",
+    "Linux",
+    "Excel",
+    "Python",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

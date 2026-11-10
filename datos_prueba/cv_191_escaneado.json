@@ -1,0 +1,29 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Rojas Vargas",
+    "correo": "nicolas.rojas.vargas191@correo.com",
+    "telefono": "3122644576",
+    "documento": "1017619450",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2015,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Java",
+    "Excel",
+    "JavaScript",
+    "Kubernetes"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

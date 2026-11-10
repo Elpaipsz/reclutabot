@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Álvarez Torres",
+    "correo": "daniela.alvarez.torres28@correo.com",
+    "telefono": "3065402616",
+    "documento": "1102767261",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2017,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2020-09",
+      "fecha_fin": "2021-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Endava",
+      "fecha_inicio": "2022-06",
+      "fecha_fin": "2023-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Nubank",
+      "fecha_inicio": "2024-06",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Kubernetes",
+    "PostgreSQL",
+    "Docker",
+    "Python",
+    "JavaScript",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Díaz Moreno",
+    "correo": "felipe.diaz.moreno57@correo.com",
+    "telefono": "3198865581",
+    "documento": "1148642371",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Pragma",
+      "fecha_inicio": "2015-04",
+      "fecha_fin": "2018-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2019-12",
+      "fecha_fin": "2022-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Globant",
+      "fecha_inicio": "2023-10",
+      "fecha_fin": "2025-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "JavaScript",
+    "Power BI",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

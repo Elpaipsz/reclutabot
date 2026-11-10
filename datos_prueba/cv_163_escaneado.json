@@ -1,0 +1,34 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés Gómez Díaz",
+    "correo": "andres.gomez.diaz163@correo.com",
+    "telefono": "3225083204",
+    "documento": "1107411599",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Scrum",
+    "SQL",
+    "Linux",
+    "Python",
+    "Docker",
+    "React",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "María Moreno Rojas",
+    "correo": "maria.moreno.rojas167@correo.com",
+    "telefono": "3011224663",
+    "documento": "1023097547",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2018,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Nubank",
+      "fecha_inicio": "2015-02",
+      "fecha_fin": "2016-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Scrum",
+    "Docker",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

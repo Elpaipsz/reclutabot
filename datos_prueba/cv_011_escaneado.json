@@ -1,0 +1,55 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Castro Martínez",
+    "correo": "nicolas.castro.martinez11@correo.com",
+    "telefono": "3257030900",
+    "documento": "1041852422",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2023,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Globant",
+      "fecha_inicio": "2019-12",
+      "fecha_fin": "2021-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Nubank",
+      "fecha_inicio": "2022-03",
+      "fecha_fin": "2023-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Nubank",
+      "fecha_inicio": "2024-11",
+      "fecha_fin": "2026-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Kubernetes",
+    "Excel",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

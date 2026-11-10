@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Rodríguez Rodríguez",
+    "correo": "juan.rodriguez.rodriguez88@correo.com",
+    "telefono": "3048590663",
+    "documento": "1030344972",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2021,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Rappi",
+      "fecha_inicio": "2017-09",
+      "fecha_fin": "2020-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "FastAPI",
+    "Python",
+    "AWS",
+    "React",
+    "PostgreSQL",
+    "Java",
+    "JavaScript"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

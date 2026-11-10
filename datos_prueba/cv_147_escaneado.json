@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Vargas Hernández",
+    "correo": "daniel.vargas.hernandez147@correo.com",
+    "telefono": "3076589285",
+    "documento": "1072603501",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Linux",
+    "JavaScript",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

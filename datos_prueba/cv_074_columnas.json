@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Ortiz García",
+    "correo": "santiago.ortiz.garcia74@correo.com",
+    "telefono": "3030283041",
+    "documento": "1161366566",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Sofka",
+      "fecha_inicio": "2020-05",
+      "fecha_fin": "2022-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Accenture",
+      "fecha_inicio": "2023-01",
+      "fecha_fin": "2025-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Git",
+    "Java",
+    "Linux",
+    "Scrum",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

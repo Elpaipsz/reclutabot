@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ramírez García",
+    "correo": "juan.ramirez.garcia47@correo.com",
+    "telefono": "3224040355",
+    "documento": "1067654215",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Pragma",
+      "fecha_inicio": "2017-03",
+      "fecha_fin": "2019-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2020-11",
+      "fecha_fin": "2021-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Power BI",
+    "PostgreSQL",
+    "Git",
+    "Docker",
+    "AWS",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

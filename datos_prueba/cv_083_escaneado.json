@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Ramírez Díaz",
+    "correo": "nicolas.ramirez.diaz83@correo.com",
+    "telefono": "3276502244",
+    "documento": "1073521371",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Rappi",
+      "fecha_inicio": "2015-03",
+      "fecha_fin": "2018-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "AWS",
+    "PostgreSQL",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

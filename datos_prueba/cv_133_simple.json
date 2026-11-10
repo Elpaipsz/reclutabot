@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Jiménez Castro",
+    "correo": "isabella.jimenez.castro133@correo.com",
+    "telefono": "3245756882",
+    "documento": "1164500943",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Endava",
+      "fecha_inicio": "2013-11",
+      "fecha_fin": "2016-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "TCS",
+      "fecha_inicio": "2017-09",
+      "fecha_fin": "2020-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Rappi",
+      "fecha_inicio": "2021-07",
+      "fecha_fin": "2024-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "Linux",
+    "Excel",
+    "React",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

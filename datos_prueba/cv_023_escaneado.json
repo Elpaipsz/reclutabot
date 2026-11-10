@@ -1,0 +1,57 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Torres Jiménez",
+    "correo": "daniela.torres.jimenez23@correo.com",
+    "telefono": "3227910149",
+    "documento": "1003347178",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "TCS",
+      "fecha_inicio": "2014-05",
+      "fecha_fin": "2017-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Globant",
+      "fecha_inicio": "2018-04",
+      "fecha_fin": "2021-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Accenture",
+      "fecha_inicio": "2022-05",
+      "fecha_fin": "2024-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Linux",
+    "FastAPI",
+    "Power BI",
+    "SQL",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

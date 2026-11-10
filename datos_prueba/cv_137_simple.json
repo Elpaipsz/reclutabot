@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Rodríguez Vargas",
+    "correo": "mateo.rodriguez.vargas137@correo.com",
+    "telefono": "3119499911",
+    "documento": "1021458483",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "SENA",
+      "anio": 2018,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Nubank",
+      "fecha_inicio": "2017-07",
+      "fecha_fin": "2018-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Rappi",
+      "fecha_inicio": "2019-12",
+      "fecha_fin": "2020-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "JavaScript",
+    "Linux",
+    "Excel",
+    "Python",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

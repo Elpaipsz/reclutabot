@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Vargas Álvarez",
+    "correo": "isabella.vargas.alvarez84@correo.com",
+    "telefono": "3114921873",
+    "documento": "1043885997",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2018,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Nubank",
+      "fecha_inicio": "2020-05",
+      "fecha_fin": "2023-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Docker",
+    "React",
+    "JavaScript",
+    "Scrum",
+    "FastAPI",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

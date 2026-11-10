@@ -1,0 +1,54 @@
+flowchart LR
+  subgraph PERSONAS["Personas"]
+    CAN["Candidato<br/>(navegador)"]
+    PER["Personal de selección<br/>auxiliar · analista · coordinador · admin"]
+    EXT["LinkedIn, Indeed u otros portales<br/>(solo enlazan a la oferta)"]
+  end
+
+  CORREO[["Buzón de correo<br/>IMAP"]]
+
+  subgraph API["Contenedor api · FastAPI"]
+    direction TB
+    PUB["Portal público<br/>cargos abiertos · oferta · postular · consultar estado"]
+    INT["Portal interno<br/>tareas · vacantes · postulaciones · plantillas · histórico · tablero"]
+    NEG["Servicios de negocio<br/>reglas · estados · duplicados · plazos hábiles"]
+    LEC["Lector IMAP"]
+    AVI["Avisos al personal"]
+    WB["Workers backend<br/>reglas · estados · correos"]
+    APII["API interna<br/>token X-Internal-Token"]
+  end
+
+  FL[("Flowable 7<br/>motor BPMN 2.0")]
+  IA["Servicio IA<br/>worker Python"]
+  RPA["Robot RPA<br/>Playwright"]
+  RRHH["App RR.HH. simulada<br/>login + expedientes"]
+  GEM[["Gemini API"]]
+  SMTP[["SMTP<br/>GreenMail en pruebas"]]
+  DB[("PostgreSQL<br/>esquemas reclutamiento y flowable")]
+  FS[("Volumen uploads<br/>hojas de vida y capturas")]
+  HTTPS["Caddy<br/>HTTPS local"]
+
+  CAN --> HTTPS --> PUB
+  PER --> HTTPS --> INT
+  EXT -. enlace a /empleos .-> PUB
+  CORREO --> LEC
+  PUB --> NEG
+  INT --> NEG
+  LEC --> NEG
+  NEG -->|inicia proceso| FL
+  FL <-->|external tasks REST| WB
+  FL <-->|external tasks REST| IA
+  FL <-->|external tasks REST| RPA
+  AVI -->|consulta tareas nuevas| FL
+  IA --> GEM
+  IA --> APII
+  RPA --> APII
+  RPA --> RRHH
+  NEG --> DB
+  APII --> DB
+  WB --> DB
+  FL --> DB
+  NEG --> FS
+  WB --> SMTP
+  AVI --> SMTP
+  NEG --> SMTP

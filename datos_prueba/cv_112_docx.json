@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Jiménez Rojas",
+    "correo": "laura.jimenez.rojas112@correo.com",
+    "telefono": "3118417830",
+    "documento": "1117760867",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2012,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-04",
+      "fecha_fin": "2021-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Globant",
+      "fecha_inicio": "2022-10",
+      "fecha_fin": "2023-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Pragma",
+      "fecha_inicio": "2024-02",
+      "fecha_fin": "2026-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "Git",
+    "PostgreSQL",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

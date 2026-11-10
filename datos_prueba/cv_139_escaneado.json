@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Rodríguez Ramírez",
+    "correo": "paula.rodriguez.ramirez139@correo.com",
+    "telefono": "3052015590",
+    "documento": "1103005189",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2013-03",
+      "fecha_fin": "2016-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2017-03",
+      "fecha_fin": "2020-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2021-01",
+      "fecha_fin": "2024-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "React",
+    "Git",
+    "Linux",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

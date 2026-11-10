@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Hernández Torres",
+    "correo": "mateo.hernandez.torres126@correo.com",
+    "telefono": "3044777568",
+    "documento": "1162691827",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2013,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2013-01",
+      "fecha_fin": "2014-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "Scrum",
+    "Power BI",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

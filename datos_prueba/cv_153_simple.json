@@ -1,0 +1,47 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Rojas Martínez",
+    "correo": "sofia.rojas.martinez153@correo.com",
+    "telefono": "3057474712",
+    "documento": "1105728891",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2022,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Nubank",
+      "fecha_inicio": "2018-01",
+      "fecha_fin": "2020-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "2022-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Endava",
+      "fecha_inicio": "2023-05",
+      "fecha_fin": "2026-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Docker",
+    "FastAPI"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

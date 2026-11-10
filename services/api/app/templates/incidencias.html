@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block title %}Incidencias{% endblock %}
+{% block body %}
+<h1>Incidencias</h1><p class="sub">Errores de IA, RPA, correo y proceso. Ninguna postulación se pierde: toda falla queda aquí y genera una tarea manual.</p>
+<div class="card"><table><tr><th>Fecha</th><th>Origen</th><th>Postulación</th><th>Detalle</th></tr>
+{% for i in filas %}<tr><td class="small">{{ i.creada_en|fecha }}</td><td><span class="badge b-Error">{{ i.origen }}</span></td>
+  <td>{% if i.postulacion_id %}<a href="/app/postulaciones/{{ i.postulacion_id }}">{{ i.numero }}</a>{% else %}—{% endif %}</td>
+  <td>{{ i.detalle }}{% if i.captura_path %} · <a href="/app/capturas/{{ i.captura_path }}" target="_blank">captura</a>{% endif %}</td></tr>
+{% else %}<tr><td colspan="4" class="mut">Sin incidencias.</td></tr>{% endfor %}</table></div>
+{% endblock %}

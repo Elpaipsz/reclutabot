@@ -1,0 +1,34 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Torres Álvarez",
+    "correo": "sofia.torres.alvarez169@correo.com",
+    "telefono": "3190406053",
+    "documento": "1102460224",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "JavaScript",
+    "Python",
+    "Git",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

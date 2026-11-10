@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Ramírez García",
+    "correo": "juan.ramirez.garcia119@correo.com",
+    "telefono": "3071660658",
+    "documento": "1163387180",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "UPB",
+      "anio": 2023,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2020-08",
+      "fecha_fin": "2023-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Endava",
+      "fecha_inicio": "2024-06",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Kubernetes",
+    "Git",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

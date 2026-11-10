@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Jiménez García",
+    "correo": "valentina.jimenez.garcia150@correo.com",
+    "telefono": "3042861599",
+    "documento": "1039745851",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2018,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "Django",
+    "Excel",
+    "Kubernetes",
+    "Java",
+    "SQL",
+    "Linux",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

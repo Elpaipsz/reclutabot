@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Rodríguez Vargas",
+    "correo": "sofia.rodriguez.vargas85@correo.com",
+    "telefono": "3184539188",
+    "documento": "1008072808",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2023,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Pragma",
+      "fecha_inicio": "2020-01",
+      "fecha_fin": "2023-09",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2024-01",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "PostgreSQL",
+    "Python",
+    "AWS",
+    "Linux",
+    "Excel",
+    "JavaScript",
+    "React"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

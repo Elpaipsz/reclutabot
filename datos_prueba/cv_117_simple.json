@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Torres Díaz",
+    "correo": "juan.torres.diaz117@correo.com",
+    "telefono": "3269039469",
+    "documento": "1030487871",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Django",
+    "Excel",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

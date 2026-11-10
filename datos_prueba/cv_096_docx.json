@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Camila Vargas Rojas",
+    "correo": "camila.vargas.rojas96@correo.com",
+    "telefono": "3033514167",
+    "documento": "1133643631",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2021,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "PostgreSQL",
+    "AWS",
+    "SQL",
+    "Git",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

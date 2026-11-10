@@ -1,0 +1,57 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Ortiz Ramírez",
+    "correo": "valentina.ortiz.ramirez54@correo.com",
+    "telefono": "3237513753",
+    "documento": "1079043343",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2014-04",
+      "fecha_fin": "2015-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "TCS",
+      "fecha_inicio": "2016-01",
+      "fecha_fin": "2017-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Globant",
+      "fecha_inicio": "2018-05",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Python",
+    "Docker",
+    "PostgreSQL",
+    "Excel",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

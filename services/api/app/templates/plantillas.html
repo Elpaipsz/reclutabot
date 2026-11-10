@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% block title %}Plantillas de correo{% endblock %}
+{% block body %}
+<h1>Plantillas de correo</h1>
+<p class="sub">Edita los mensajes que envía el sistema. Marcadores disponibles: <code>{nombre}</code> <code>{numero}</code> <code>{vacante}</code> <code>{enlace}</code> <code>{tarea}</code> <code>{tiempo}</code>.</p>
+{% if ok %}<div class="alert ok">Plantilla guardada.</div>{% endif %}
+{% for p in plantillas %}
+<form class="card" method="post" action="/app/plantillas"><input type="hidden" name="clave" value="{{ p.clave }}">
+  <h2>{{ p.etiqueta }} {% if p.personalizada %}<span class="badge">editada</span>{% endif %}</h2>
+  <label>Asunto</label><input name="asunto" value="{{ p.asunto }}" required>
+  <label>Mensaje</label><textarea name="cuerpo" rows="6" required>{{ p.cuerpo }}</textarea>
+  <p><button class="btn sec">Guardar</button>
+  {% if p.personalizada %}<button class="btn sec" name="restaurar" value="1" formnovalidate>Restaurar original</button>{% endif %}</p>
+</form>
+{% endfor %}
+{% endblock %}

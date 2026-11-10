@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Díaz Martínez",
+    "correo": "sofia.diaz.martinez178@correo.com",
+    "telefono": "3111988857",
+    "documento": "1072028406",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2015,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "Django",
+    "Kubernetes",
+    "Excel",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

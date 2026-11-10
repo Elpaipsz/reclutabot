@@ -1,0 +1,36 @@
+{
+  "datos_personales": {
+    "nombre": "Camila Ortiz Ramírez",
+    "correo": "camila.ortiz.ramirez42@correo.com",
+    "telefono": "3131014049",
+    "documento": "1113750814",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2018,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Power BI",
+    "JavaScript",
+    "Excel",
+    "Django",
+    "Scrum",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

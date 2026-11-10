@@ -1,0 +1,36 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Vargas Gómez",
+    "correo": "daniel.vargas.gomez55@correo.com",
+    "telefono": "3172940285",
+    "documento": "1189155587",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2012,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Git",
+    "Power BI",
+    "Scrum",
+    "FastAPI",
+    "AWS",
+    "PostgreSQL",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Ramírez Gómez",
+    "correo": "isabella.ramirez.gomez162@correo.com",
+    "telefono": "3154430940",
+    "documento": "1142456732",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2024,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Nubank",
+      "fecha_inicio": "2015-09",
+      "fecha_fin": "2017-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Pragma",
+      "fecha_inicio": "2018-10",
+      "fecha_fin": "2021-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Sofka",
+      "fecha_inicio": "2022-02",
+      "fecha_fin": "2024-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "PostgreSQL",
+    "Scrum",
+    "Excel"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

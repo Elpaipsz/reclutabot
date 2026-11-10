@@ -1,0 +1,57 @@
+{
+  "datos_personales": {
+    "nombre": "María Torres Jiménez",
+    "correo": "maria.torres.jimenez141@correo.com",
+    "telefono": "3134181420",
+    "documento": "1003809370",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2016-12",
+      "fecha_fin": "2018-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-03",
+      "fecha_fin": "2020-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Rappi",
+      "fecha_inicio": "2021-01",
+      "fecha_fin": "2022-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "JavaScript",
+    "SQL",
+    "Linux",
+    "Power BI",
+    "Excel",
+    "PostgreSQL",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

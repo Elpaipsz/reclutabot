@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Hernández Castro",
+    "correo": "mateo.hernandez.castro81@correo.com",
+    "telefono": "3044986822",
+    "documento": "1131803671",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2012,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Globant",
+      "fecha_inicio": "2015-03",
+      "fecha_fin": "2018-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Globant",
+      "fecha_inicio": "2019-07",
+      "fecha_fin": "2021-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Sofka",
+      "fecha_inicio": "2022-05",
+      "fecha_fin": "2023-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "FastAPI",
+    "Django",
+    "React",
+    "Python",
+    "Linux"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

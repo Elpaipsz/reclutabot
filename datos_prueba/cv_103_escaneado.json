@@ -1,0 +1,48 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Rojas Jiménez",
+    "correo": "mateo.rojas.jimenez103@correo.com",
+    "telefono": "3143342501",
+    "documento": "1107515530",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "UPB",
+      "anio": 2022,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "TCS",
+      "fecha_inicio": "2015-01",
+      "fecha_fin": "2016-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "TCS",
+      "fecha_inicio": "2017-06",
+      "fecha_fin": "2020-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Docker",
+    "PostgreSQL",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "AWS Cloud Practitioner"
+  ]
+}

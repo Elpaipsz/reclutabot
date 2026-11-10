@@ -1,0 +1,56 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Vargas Rojas",
+    "correo": "sebastian.vargas.rojas63@correo.com",
+    "telefono": "3172827436",
+    "documento": "1079011915",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "UPB",
+      "anio": 2020,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2016-04",
+      "fecha_fin": "2018-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Pragma",
+      "fecha_inicio": "2019-04",
+      "fecha_fin": "2022-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "TCS",
+      "fecha_inicio": "2023-04",
+      "fecha_fin": "2026-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Kubernetes",
+    "Docker",
+    "Excel",
+    "SQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

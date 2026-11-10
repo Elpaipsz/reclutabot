@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Torres Castro",
+    "correo": "mateo.torres.castro9@correo.com",
+    "telefono": "3213889649",
+    "documento": "1007499301",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Pragma",
+      "fecha_inicio": "2016-12",
+      "fecha_fin": "2018-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Power BI",
+    "AWS",
+    "Docker",
+    "JavaScript"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

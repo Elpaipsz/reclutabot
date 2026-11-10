@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella Rodríguez Jiménez",
+    "correo": "isabella.rodriguez.jimenez132@correo.com",
+    "telefono": "3210704773",
+    "documento": "1064180630",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2018-12",
+      "fecha_fin": "2021-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Globant",
+      "fecha_inicio": "2022-09",
+      "fecha_fin": "2024-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "SQL",
+    "Scrum",
+    "Java",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Scrum Master"
+  ]
+}

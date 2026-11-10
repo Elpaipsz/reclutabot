@@ -1,0 +1,32 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo Jiménez Ramírez",
+    "correo": "mateo.jimenez.ramirez34@correo.com",
+    "telefono": "3265136888",
+    "documento": "1066575494",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Excel",
+    "Python",
+    "JavaScript"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

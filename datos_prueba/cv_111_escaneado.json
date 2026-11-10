@@ -1,0 +1,31 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Rodríguez López",
+    "correo": "juan.rodriguez.lopez111@correo.com",
+    "telefono": "3076354538",
+    "documento": "1113542831",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "UPB",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "AWS",
+    "Kubernetes",
+    "Java",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

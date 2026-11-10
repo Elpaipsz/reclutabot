@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Moreno Rojas",
+    "correo": "daniela.moreno.rojas187@correo.com",
+    "telefono": "3125179620",
+    "documento": "1009575195",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "Universidad Nacional",
+      "anio": 2023,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "TCS",
+      "fecha_inicio": "2016-12",
+      "fecha_fin": "2019-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "TCS",
+      "fecha_inicio": "2020-06",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "Linux",
+    "FastAPI",
+    "JavaScript",
+    "AWS",
+    "Excel"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

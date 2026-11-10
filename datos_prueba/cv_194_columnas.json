@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Andrés Torres Jiménez",
+    "correo": "andres.torres.jimenez194@correo.com",
+    "telefono": "3118953688",
+    "documento": "1067807162",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2017,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2014-12",
+      "fecha_fin": "2017-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2018-02",
+      "fecha_fin": "2019-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Docker",
+    "Scrum",
+    "JavaScript"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

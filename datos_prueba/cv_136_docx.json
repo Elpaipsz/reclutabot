@@ -1,0 +1,44 @@
+{
+  "datos_personales": {
+    "nombre": "María Gómez Ramírez",
+    "correo": "maria.gomez.ramirez136@correo.com",
+    "telefono": "3168796468",
+    "documento": "1024515863",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "UPB",
+      "anio": 2016,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2013-12",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Django",
+    "SQL",
+    "Kubernetes",
+    "Git",
+    "PostgreSQL",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

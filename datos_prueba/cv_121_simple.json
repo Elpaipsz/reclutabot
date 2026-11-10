@@ -1,0 +1,46 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Castro Rodríguez",
+    "correo": "sofia.castro.rodriguez121@correo.com",
+    "telefono": "3250588808",
+    "documento": "1045343908",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2018-06",
+      "fecha_fin": "2021-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2022-03",
+      "fecha_fin": "2024-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Power BI",
+    "PostgreSQL",
+    "Scrum"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

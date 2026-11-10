@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Torres Rojas",
+    "correo": "juan.torres.rojas98@correo.com",
+    "telefono": "3241983087",
+    "documento": "1066928861",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2012,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "Kubernetes",
+    "Python",
+    "JavaScript"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

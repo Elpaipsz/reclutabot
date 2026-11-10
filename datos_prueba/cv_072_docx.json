@@ -1,0 +1,29 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Gómez Moreno",
+    "correo": "laura.gomez.moreno72@correo.com",
+    "telefono": "3026286981",
+    "documento": "1034619714",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2022,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "JavaScript",
+    "Kubernetes",
+    "Power BI",
+    "Scrum",
+    "Django"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

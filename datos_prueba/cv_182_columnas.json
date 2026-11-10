@@ -1,0 +1,47 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Álvarez Hernández",
+    "correo": "sebastian.alvarez.hernandez182@correo.com",
+    "telefono": "3221001344",
+    "documento": "1120629682",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "TCS",
+      "fecha_inicio": "2019-01",
+      "fecha_fin": "2022-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2023-12",
+      "fecha_fin": "2024-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Django",
+    "Scrum",
+    "SQL",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

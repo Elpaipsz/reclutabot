@@ -1,0 +1,57 @@
+{
+  "datos_personales": {
+    "nombre": "Camila García Jiménez",
+    "correo": "camila.garcia.jimenez172@correo.com",
+    "telefono": "3129840466",
+    "documento": "1132643598",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "Universidad del Valle",
+      "anio": 2023,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Pragma",
+      "fecha_inicio": "2016-10",
+      "fecha_fin": "2017-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Accenture",
+      "fecha_inicio": "2018-11",
+      "fecha_fin": "2020-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Sofka",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "2022-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Git",
+    "Python",
+    "FastAPI",
+    "Scrum",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

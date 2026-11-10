@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Martínez Díaz",
+    "correo": "daniela.martinez.diaz29@correo.com",
+    "telefono": "3143348445",
+    "documento": "1029271813",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad Nacional",
+      "anio": 2018,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2019-05",
+      "fecha_fin": "2021-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2022-12",
+      "fecha_fin": "2024-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Pragma",
+      "fecha_inicio": "2025-02",
+      "fecha_fin": "2026-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Scrum",
+    "Power BI",
+    "Java"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

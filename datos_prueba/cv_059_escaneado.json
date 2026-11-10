@@ -1,0 +1,49 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Moreno Díaz",
+    "correo": "felipe.moreno.diaz59@correo.com",
+    "telefono": "3172180288",
+    "documento": "1005937066",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2022,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2014-07",
+      "fecha_fin": "2015-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Pragma",
+      "fecha_inicio": "2016-07",
+      "fecha_fin": "2018-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "Python",
+    "Power BI",
+    "SQL",
+    "Git",
+    "AWS",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

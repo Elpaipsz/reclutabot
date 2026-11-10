@@ -1,0 +1,53 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Moreno Rodríguez",
+    "correo": "juan.moreno.rodriguez181@correo.com",
+    "telefono": "3252656982",
+    "documento": "1026288251",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "EAFIT",
+      "anio": 2014,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Sofka",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "2022-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2023-08",
+      "fecha_fin": "2025-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Power BI",
+    "FastAPI",
+    "Java",
+    "Kubernetes",
+    "JavaScript",
+    "Excel",
+    "PostgreSQL",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "AWS Cloud Practitioner"
+  ]
+}

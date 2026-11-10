@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Felipe Hernández Ramírez",
+    "correo": "felipe.hernandez.ramirez49@correo.com",
+    "telefono": "3229420181",
+    "documento": "1178636417",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancamía",
+      "fecha_inicio": "2015-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Kubernetes",
+    "Linux",
+    "React",
+    "Docker"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Azure Fundamentals",
+    "Scrum Master"
+  ]
+}

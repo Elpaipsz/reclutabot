@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Gómez Álvarez",
+    "correo": "santiago.gomez.alvarez39@correo.com",
+    "telefono": "3070279041",
+    "documento": "1161877905",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "UPB",
+      "anio": 2015,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-05",
+      "fecha_fin": "2021-04",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Rappi",
+      "fecha_inicio": "2022-10",
+      "fecha_fin": "2023-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Linux",
+    "AWS"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

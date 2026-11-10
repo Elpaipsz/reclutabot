@@ -1,0 +1,39 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel García Gómez",
+    "correo": "daniel.garcia.gomez36@correo.com",
+    "telefono": "3220605196",
+    "documento": "1137408025",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "SENA",
+      "anio": 2023,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Endava",
+      "fecha_inicio": "2017-04",
+      "fecha_fin": "2020-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Git",
+    "FastAPI",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

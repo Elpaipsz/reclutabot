@@ -1,0 +1,33 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Martínez García",
+    "correo": "sofia.martinez.garcia53@correo.com",
+    "telefono": "3231717938",
+    "documento": "1092573638",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2012,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Python",
+    "Kubernetes",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

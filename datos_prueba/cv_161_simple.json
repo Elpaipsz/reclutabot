@@ -1,0 +1,47 @@
+{
+  "datos_personales": {
+    "nombre": "Sebastián Torres López",
+    "correo": "sebastian.torres.lopez161@correo.com",
+    "telefono": "3246645224",
+    "documento": "1163122726",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad Nacional",
+      "anio": 2012,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Grupo Éxito",
+      "fecha_inicio": "2019-11",
+      "fecha_fin": "2020-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Nubank",
+      "fecha_inicio": "2021-05",
+      "fecha_fin": "2024-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "SQL",
+    "Docker",
+    "Linux",
+    "AWS",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": []
+}

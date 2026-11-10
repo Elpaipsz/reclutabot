@@ -1,0 +1,42 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina López Moreno",
+    "correo": "valentina.lopez.moreno100@correo.com",
+    "telefono": "3047464576",
+    "documento": "1178314809",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "EAFIT",
+      "anio": 2017,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2021-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "JavaScript",
+    "Power BI",
+    "Django",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

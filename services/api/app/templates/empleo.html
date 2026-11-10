@@ -1,0 +1,62 @@
+{% extends "base.html" %}{% block title %}{{ v.titulo }}, {{ empresa }}{% endblock %}
+{% block body %}
+{% if v.estado == 'activa' %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org/", "@type": "JobPosting", "title": v.titulo,
+  "description": v.descripcion or v.titulo, "datePosted": v.creada_en.strftime('%Y-%m-%d'),
+  "employmentType": v.contrato or "FULL_TIME", "directApply": true, "url": url,
+  "hiringOrganization": {"@type": "Organization", "name": empresa},
+  "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": v.ubicacion or "", "addressCountry": "CO"}}
+}|tojson }}</script>
+{% endif %}
+<a class="volver" href="/">Todos los cargos</a>
+<div class="split">
+  <div class="oferta">
+    <h1>{{ v.titulo }}</h1>
+    <ul class="facts">
+      <li><b>{{ v.codigo }}</b></li>
+      {% if v.area %}<li>{{ v.area }}</li>{% endif %}
+      {% if v.modalidad %}<li>{{ v.modalidad }}</li>{% endif %}
+      {% if v.ubicacion %}<li>{{ v.ubicacion }}</li>{% endif %}
+      {% if v.contrato %}<li>{{ v.contrato }}</li>{% endif %}
+      {% if v.salario %}<li>{{ v.salario }}</li>{% endif %}
+    </ul>
+    {% if v.estado != 'activa' %}<div class="alert err">Este cargo ya está cerrado y no recibe postulaciones.</div>{% endif %}
+    <p class="lead">{{ v.descripcion or 'Sin descripción.' }}</p>
+
+    {% if v.responsabilidades %}<h2>Qué harás</h2><ul>{% for l in v.responsabilidades|lineas %}<li>{{ l }}</li>{% endfor %}</ul>{% endif %}
+
+    <h2>Requisitos</h2>
+    <dl class="reqs">
+      <dt>Experiencia</dt><dd>{% if v.requisitos.get('anios_experiencia') %}{{ v.requisitos.anios_experiencia|int if v.requisitos.anios_experiencia == v.requisitos.anios_experiencia|int else v.requisitos.anios_experiencia }} año(s){% else %}No se exige{% endif %}</dd>
+      <dt>Formación</dt><dd>{{ v.requisitos.get('formacion_minima') or 'No se exige' }}</dd>
+      {% if v.requisitos.get('habilidades_obligatorias') %}<dt>Imprescindible</dt><dd>{{ v.requisitos.habilidades_obligatorias|join(', ') }}</dd>{% endif %}
+      {% if v.requisitos.get('habilidades_deseables') %}<dt>Suma puntos</dt><dd>{{ v.requisitos.habilidades_deseables|join(', ') }}</dd>{% endif %}
+      {% for i in v.requisitos.get('idiomas', []) %}<dt>Idioma</dt><dd>{{ i.idioma }}{{ ' ' + i.nivel if i.nivel }}</dd>{% endfor %}
+    </dl>
+
+    {% if v.ofrecemos %}<h2>Qué ofrecemos</h2><ul>{% for l in v.ofrecemos|lineas %}<li>{{ l }}</li>{% endfor %}</ul>{% endif %}
+
+    <h2>Cómo se revisa tu hoja de vida</h2>
+    <p>Una herramienta de IA lee el archivo y extrae tus datos. Unas reglas fijas los comparan con los requisitos de arriba. Después una persona del equipo de selección revisa el resultado y decide: ninguna hoja de vida se descarta de forma automática. Usamos tus datos solo para este proceso, conforme a la Ley 1581 de 2012.</p>
+  </div>
+
+  {% if v.estado == 'activa' %}
+  <form class="card sticky" method="post" action="/postular" enctype="multipart/form-data" id="postular">
+    <h2>Postúlate a este cargo</h2>
+    {% if error %}<div class="alert err">{{ error }}</div>{% endif %}
+    <input type="hidden" name="vacante_id" value="{{ v.id }}">
+    <label>Nombre completo</label><input name="nombre" required autocomplete="name">
+    <label>Correo electrónico</label><input name="correo" type="email" required autocomplete="email">
+    <label>Teléfono</label><input name="telefono" inputmode="tel" autocomplete="tel">
+    <label>Hoja de vida (PDF o DOCX, máximo 5 MB)</label><input type="file" name="cv" accept=".pdf,.docx" required>
+    <label class="check"><input type="checkbox" name="acepta" value="1" required>
+      <span>Autorizo el tratamiento de mis datos personales conforme a la Ley 1581 de 2012 (Habeas Data) para este proceso de selección.</span></label>
+    <p><button class="btn" style="width:100%">Enviar postulación</button></p>
+    <p class="mut small" style="margin:0">Al enviar recibes un número de postulación y puedes <a href="/estado">consultar su estado</a> cuando quieras.</p>
+  </form>
+  {% else %}
+  <div class="card sticky"><h2>Cargo cerrado</h2><p class="mut">Mira los <a href="/">otros cargos abiertos</a>.</p></div>
+  {% endif %}
+</div>
+{% endblock %}

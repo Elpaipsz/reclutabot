@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Castro Ortiz",
+    "correo": "valentina.castro.ortiz35@correo.com",
+    "telefono": "3218768726",
+    "documento": "1006511358",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2021,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Sofka",
+      "fecha_inicio": "2013-12",
+      "fecha_fin": "2016-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Nubank",
+      "fecha_inicio": "2017-01",
+      "fecha_fin": "2019-12",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Java",
+    "Excel",
+    "Git",
+    "Kubernetes",
+    "PostgreSQL",
+    "Scrum"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

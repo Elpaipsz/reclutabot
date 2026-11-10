@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo López García",
+    "correo": "mateo.lopez.garcia86@correo.com",
+    "telefono": "3163232400",
+    "documento": "1044110129",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Técnico en Sistemas",
+      "institucion": "UPB",
+      "anio": 2013,
+      "nivel": "Técnico"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Backend",
+      "empresa": "Rappi",
+      "fecha_inicio": "2020-09",
+      "fecha_fin": "2023-05",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Nubank",
+      "fecha_inicio": "2024-07",
+      "fecha_fin": "2025-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Scrum",
+    "AWS",
+    "Kubernetes",
+    "Java",
+    "React",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

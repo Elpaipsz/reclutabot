@@ -1,0 +1,25 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Martínez García",
+    "correo": "nicolas.martinez.garcia67@correo.com",
+    "telefono": "3216156605",
+    "documento": "1183230839",
+    "ubicacion": "Pereira"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Kubernetes",
+    "JavaScript",
+    "Excel"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}

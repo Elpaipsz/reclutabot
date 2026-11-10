@@ -1,0 +1,37 @@
+{
+  "datos_personales": {
+    "nombre": "Laura Vargas Moreno",
+    "correo": "laura.vargas.moreno89@correo.com",
+    "telefono": "3283325104",
+    "documento": "1077085917",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2016,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "JavaScript",
+    "Linux",
+    "Git",
+    "SQL",
+    "React",
+    "Docker",
+    "Kubernetes",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

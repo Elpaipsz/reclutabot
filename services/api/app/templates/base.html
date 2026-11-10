@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Selección de personal{% endblock %}</title><link rel="stylesheet" href="/static/style.css?v={{ css_v }}"></head>
+<body>
+<header>
+  {% if u %}<a class="logo" href="/app">Selección de personal</a>{% else %}<a class="logo" href="/">{{ empresa }}<small>Empleos</small></a>{% endif %}
+  <nav>
+  {% set ruta = request.url.path %}
+  {% if u %}
+    <a href="/app" class="{{ 'on' if ruta=='/app' }}">Tablero</a>
+    <a href="/app/tareas" class="{{ 'on' if ruta.startswith('/app/tareas') }}">Mis tareas</a>
+    <a href="/app/postulaciones" class="{{ 'on' if ruta.startswith('/app/postulaciones') }}">Postulaciones</a>
+    {% if u.rol in ('auxiliar','admin') %}<a href="/app/vacantes" class="{{ 'on' if ruta.startswith('/app/vacantes') }}">Vacantes</a>{% endif %}
+    {% if u.rol in ('auxiliar','coordinador','admin') %}<a href="/app/incidencias" class="{{ 'on' if ruta.startswith('/app/incidencias') }}">Incidencias</a><a href="/app/historico" class="{{ 'on' if ruta.startswith('/app/historico') }}">Histórico</a>{% endif %}
+    {% if u.rol == 'admin' %}<a href="/app/plantillas" class="{{ 'on' if ruta.startswith('/app/plantillas') }}">Plantillas</a>{% endif %}
+    <a href="/" target="_blank" title="Abre la página pública de empleos" class="ext">Ver página de empleos</a>
+  {% else %}
+    <a href="/" class="{{ 'on' if ruta=='/' or ruta.startswith('/empleos') }}">Cargos abiertos</a>
+    <a href="/estado" class="{{ 'on' if ruta=='/estado' }}">Mi postulación</a>
+  {% endif %}
+  </nav>
+  <div class="who">{% if u %}{{ u.nombre }}, {{ u.rol }}<a href="/logout">Salir</a>{% else %}<a href="/login" class="empresa">Acceso del personal</a>{% endif %}</div>
+</header>
+<main>{% block body %}{% endblock %}</main>
+</body></html>

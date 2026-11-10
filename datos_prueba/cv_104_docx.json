@@ -1,0 +1,43 @@
+{
+  "datos_personales": {
+    "nombre": "Sofía Rodríguez García",
+    "correo": "sofia.rodriguez.garcia104@correo.com",
+    "telefono": "3085772598",
+    "documento": "1061110663",
+    "ubicacion": "Bucaramanga"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2024,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Sistemas",
+      "empresa": "Sofka",
+      "fecha_inicio": "2017-12",
+      "fecha_fin": "2019-01",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "React",
+    "Java",
+    "Git",
+    "Linux",
+    "Excel",
+    "AWS",
+    "Docker",
+    "Python"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B2"
+    }
+  ],
+  "certificaciones": []
+}

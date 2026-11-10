@@ -1,0 +1,38 @@
+{
+  "datos_personales": {
+    "nombre": "Valentina Torres López",
+    "correo": "valentina.torres.lopez10@correo.com",
+    "telefono": "3256171824",
+    "documento": "1172639727",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2015,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2018-10",
+      "fecha_fin": "2020-10",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "Kubernetes",
+    "Power BI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": []
+}

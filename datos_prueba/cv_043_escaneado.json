@@ -1,0 +1,45 @@
+{
+  "datos_personales": {
+    "nombre": "Mateo García Hernández",
+    "correo": "mateo.garcia.hernandez43@correo.com",
+    "telefono": "3074791794",
+    "documento": "1084429923",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad del Valle",
+      "anio": 2014,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2021-02",
+      "fecha_fin": "2022-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Excel",
+    "FastAPI",
+    "Power BI",
+    "AWS",
+    "Scrum",
+    "Django",
+    "SQL",
+    "Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

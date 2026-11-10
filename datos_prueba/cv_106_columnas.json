@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Daniel Ramírez Rodríguez",
+    "correo": "daniel.ramirez.rodriguez106@correo.com",
+    "telefono": "3165249116",
+    "documento": "1024840842",
+    "ubicacion": "Bogotá"
+  },
+  "formacion": [
+    {
+      "titulo": "Maestría en Ingeniería",
+      "institucion": "UPB",
+      "anio": 2024,
+      "nivel": "Maestría"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "TCS",
+      "fecha_inicio": "2021-09",
+      "fecha_fin": "2022-03",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2023-09",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "PostgreSQL",
+    "Django",
+    "Linux",
+    "Power BI",
+    "JavaScript"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner",
+    "Azure Fundamentals"
+  ]
+}

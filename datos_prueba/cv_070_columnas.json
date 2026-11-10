@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Juan Rojas Hernández",
+    "correo": "juan.rojas.hernandez70@correo.com",
+    "telefono": "3099069522",
+    "documento": "1048666853",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Ingeniero de Software",
+      "empresa": "TCS",
+      "fecha_inicio": "2014-11",
+      "fecha_fin": "2015-11",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Python",
+    "Docker",
+    "Scrum"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Azure Fundamentals"
+  ]
+}

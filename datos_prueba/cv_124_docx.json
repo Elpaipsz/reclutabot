@@ -1,0 +1,50 @@
+{
+  "datos_personales": {
+    "nombre": "Daniela Castro Castro",
+    "correo": "daniela.castro.castro124@correo.com",
+    "telefono": "3111825371",
+    "documento": "1006909780",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Especialización en Analítica de Datos",
+      "institucion": "Universidad del Valle",
+      "anio": 2012,
+      "nivel": "Especialización"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Full Stack",
+      "empresa": "Bancolombia",
+      "fecha_inicio": "2020-11",
+      "fecha_fin": "2023-06",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Nubank",
+      "fecha_inicio": "2024-01",
+      "fecha_fin": "2026-02",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "Linux",
+    "Python",
+    "Git",
+    "AWS",
+    "Power BI",
+    "Docker",
+    "Django",
+    "FastAPI"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "certificaciones": []
+}

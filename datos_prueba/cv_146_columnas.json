@@ -1,0 +1,37 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago López García",
+    "correo": "santiago.lopez.garcia146@correo.com",
+    "telefono": "3078902651",
+    "documento": "1155488146",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "SENA",
+      "anio": 2019,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "PostgreSQL",
+    "Git",
+    "AWS",
+    "Docker",
+    "FastAPI",
+    "Excel",
+    "Django",
+    "Linux"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

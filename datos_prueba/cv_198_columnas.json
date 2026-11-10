@@ -1,0 +1,29 @@
+{
+  "datos_personales": {
+    "nombre": "Isabella García Castro",
+    "correo": "isabella.garcia.castro198@correo.com",
+    "telefono": "3041100251",
+    "documento": "1154321415",
+    "ubicacion": "Cali"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad de Antioquia",
+      "anio": 2022,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "FastAPI",
+    "Java",
+    "Python",
+    "Docker",
+    "SQL"
+  ],
+  "idiomas": [],
+  "certificaciones": [
+    "Scrum Master"
+  ]
+}

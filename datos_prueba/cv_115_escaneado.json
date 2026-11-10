@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Nicolás Martínez Jiménez",
+    "correo": "nicolas.martinez.jimenez115@correo.com",
+    "telefono": "3279143096",
+    "documento": "1027405436",
+    "ubicacion": "Barranquilla"
+  },
+  "formacion": [
+    {
+      "titulo": "Tecnólogo en Desarrollo de Software",
+      "institucion": "UPB",
+      "anio": 2020,
+      "nivel": "Tecnólogo"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "Docker",
+    "SQL",
+    "AWS",
+    "JavaScript",
+    "FastAPI",
+    "Django"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "A2"
+    }
+  ],
+  "certificaciones": [
+    "AWS Cloud Practitioner"
+  ]
+}

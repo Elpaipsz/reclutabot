@@ -1,0 +1,35 @@
+{
+  "datos_personales": {
+    "nombre": "Paula Jiménez Gómez",
+    "correo": "paula.jimenez.gomez16@correo.com",
+    "telefono": "3040675978",
+    "documento": "1028126559",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "EAFIT",
+      "anio": 2020,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [],
+  "habilidades": [
+    "FastAPI",
+    "Java",
+    "Excel",
+    "Django",
+    "PostgreSQL"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "C1"
+    }
+  ],
+  "certificaciones": [
+    "Scrum Master",
+    "Azure Fundamentals"
+  ]
+}

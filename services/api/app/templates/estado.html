@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% block title %}Mi postulación{% endblock %}
+{% block body %}
+<div style="max-width:520px">
+  <h1>Estado de tu postulación</h1>
+  <p class="sub">Escribe el número que recibiste al postularte y el correo que usaste.</p>
+  {% if error %}<div class="alert err">{{ error }}</div>{% endif %}
+  <form class="card" method="post" action="/estado">
+    <label style="margin-top:0">Número de postulación</label><input name="numero" placeholder="POST-2026-000123" required>
+    <label>Correo electrónico</label><input name="correo" type="email" required>
+    <p><button class="btn" style="width:100%">Consultar</button></p>
+  </form>
+  {% if resultado %}
+  <div class="card estado-card">
+    <p class="mut small" style="margin:0">{{ resultado.numero }}, {{ resultado.titulo }}</p>
+    <h2 style="margin:6px 0">{{ resultado.titulo_estado }}</h2>
+    <p>{{ resultado.detalle }}</p>
+    <p class="mut small" style="margin:0">Recibida el {{ resultado.recibida_en|fecha }}</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

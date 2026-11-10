@@ -1,0 +1,52 @@
+{
+  "datos_personales": {
+    "nombre": "Santiago Díaz Vargas",
+    "correo": "santiago.diaz.vargas177@correo.com",
+    "telefono": "3035494412",
+    "documento": "1019501404",
+    "ubicacion": "Medellín"
+  },
+  "formacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Nacional",
+      "anio": 2023,
+      "nivel": "Profesional"
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Datos",
+      "empresa": "Endava",
+      "fecha_inicio": "2015-02",
+      "fecha_fin": "2018-08",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Ingeniero DevOps",
+      "empresa": "Mercado Libre",
+      "fecha_inicio": "2019-01",
+      "fecha_fin": "2020-07",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    },
+    {
+      "cargo": "Desarrollador Python",
+      "empresa": "Endava",
+      "fecha_inicio": "2021-04",
+      "fecha_fin": "actual",
+      "funciones": "Desarrollo y mantenimiento de servicios, trabajo con equipos ágiles."
+    }
+  ],
+  "habilidades": [
+    "AWS",
+    "Linux",
+    "PostgreSQL",
+    "Django",
+    "Python",
+    "Excel",
+    "JavaScript",
+    "FastAPI"
+  ],
+  "idiomas": [],
+  "certificaciones": []
+}
